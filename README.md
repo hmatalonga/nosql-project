@@ -1,1 +1,1 @@
-# nosql-project
+# Projecto de Base de Dados NoSQL
