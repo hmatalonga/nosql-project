@@ -94,25 +94,6 @@ CREATE TABLE country (
   CONSTRAINT "COUNTRY_PK" PRIMARY KEY (country_id)
 )
 
-CREATE TABLE customer (
-  customer_id number(4,0) NOT NULL,
-  store_id number(4,0) NOT NULL,
-  first_name VARCHAR2(45) NOT NULL,
-  last_name VARCHAR2(45) NOT NULL,
-  email VARCHAR2(50) NOT NULL,
-  address_id number(4,0) NOT NULL,
-  active NUMBER(1,0) NOT NULL,
-  create_date timestamp NOT NULL,
-  last_update timestamp DEFAULT (current_timestamp) not null,
-  CONSTRAINT "CUSTOMER_PK" PRIMARY KEY (customer_id),
-  CONSTRAINT fk_customer_address FOREIGN KEY (address_id) REFERENCES address (address_id),
-  CONSTRAINT fk_customer_store FOREIGN KEY (store_id) REFERENCES store (store_id)
-)
-
-create index idx_fk_store_id on customer(store_id)
-create index idx_fk_address_id on customer(address_id)
-create index idx_last_name on customer(last_name)
-
 CREATE TABLE city (
   city_id number(4,0) NOT NULL,
   city VARCHAR2(50) NOT NULL,
@@ -121,8 +102,11 @@ CREATE TABLE city (
   CONSTRAINT "CITY_PK" PRIMARY KEY (city_id),
   CONSTRAINT fk_city_country FOREIGN KEY (country_id) REFERENCES country (country_id)
 )
-create index idx_fk_country_id on city(country_id)
 
+
+
+
+create index idx_fk_country_id on city(country_id)
 CREATE TABLE address (
   address_id number(4,0) NOT NULL,
   address VARCHAR2(50) NOT NULL,
@@ -137,7 +121,6 @@ CREATE TABLE address (
 )
 create index idx_fk_city_id on address(city_id)
 
-
 CREATE TABLE staff (
   staff_id number(4,0) NOT NULL,
   first_name VARCHAR2(45) NOT NULL,
@@ -151,13 +134,11 @@ CREATE TABLE staff (
   password VARCHAR2(40) DEFAULT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "STAFF_PK" PRIMARY KEY (staff_id),
-  CONSTRAINT fk_staff_store FOREIGN KEY (store_id) REFERENCES store (store_id),
   CONSTRAINT fk_staff_address FOREIGN KEY (address_id) REFERENCES address (address_id)
 )
 
 create index idx_fk_store_id on staff(store_id)
 create index idx_fk_address_id on staff(address_id)
-
 
 CREATE TABLE store (
   store_id number(4,0) NOT NULL,
@@ -165,13 +146,67 @@ CREATE TABLE store (
   address_id number(4,0) NOT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "STORE_PK" PRIMARY KEY (store_id),
-  CONSTRAINT fk_store_staff FOREIGN KEY (manager_staff_id) REFERENCES staff (staff_id),
   CONSTRAINT fk_store_address FOREIGN KEY (address_id) REFERENCES address (address_id),
   CONSTRAINT idx_unique_manager UNIQUE (manager_staff_id)
 )
 
-create index idx_fk_address_id on store(address_id)
+create index idx_fk_address_id1 on store(address_id)
 
+ALTER TABLE staff ADD CONSTRAINT fk_staff_store FOREIGN KEY (store_id) REFERENCES store(store_id);
+  
+ALTER TABLE store ADD CONSTRAINT fk_store_staff FOREIGN KEY (manager_staff_id) REFERENCES staff (staff_id);
+
+  
+  CREATE TABLE inventory (
+  inventory_id number(6,0) NOT NULL,
+  film_id number(4,0) NOT NULL,
+  store_id number(4,0) NOT NULL,
+  last_update timestamp DEFAULT (current_timestamp) not null,
+  CONSTRAINT "INVENTORY_PK" PRIMARY KEY (inventory_id),
+  CONSTRAINT fk_inventory_store FOREIGN KEY (store_id) REFERENCES store (store_id),
+  CONSTRAINT fk_inventory_film FOREIGN KEY (film_id) REFERENCES film (film_id)
+)
+
+create index idx_fk_film_id on inventory(film_id)
+create index idx_store_id_film_id on inventory(store_id, film_id)
+
+CREATE TABLE customer (
+  customer_id number(4,0) NOT NULL,
+  store_id number(4,0) NOT NULL,
+  first_name VARCHAR2(45) NOT NULL,
+  last_name VARCHAR2(45) NOT NULL,
+  email VARCHAR2(50) NOT NULL,
+  address_id number(4,0) NOT NULL,
+  active NUMBER(1,0) NOT NULL,
+  create_date date NOT NULL,
+  last_update timestamp DEFAULT (current_timestamp) not null,
+  CONSTRAINT "CUSTOMER_PK" PRIMARY KEY (customer_id),
+  CONSTRAINT fk_customer_address FOREIGN KEY (address_id) REFERENCES address (address_id),
+  CONSTRAINT fk_customer_store FOREIGN KEY (store_id) REFERENCES store (store_id)
+)
+
+create index idx_fk_store_id1 on customer(store_id)
+create index idx_fk_address_id1 on customer(address_id)
+create index idx_last_name on customer(last_name)
+
+
+CREATE TABLE rental (
+  rental_id number(10,0) NOT NULL,
+  rental_date timestamp NOT NULL,
+  inventory_id number(6,0) NOT NULL,
+  customer_id number(4,0) NOT NULL,
+  return_date timestamp DEFAULT NULL,
+  staff_id number(4,0) NOT NULL,
+  last_update timestamp DEFAULT (current_timestamp) not null,
+  CONSTRAINT "RENTAL_PK" PRIMARY KEY (rental_id),
+  CONSTRAINT fk_rental_staff FOREIGN KEY (staff_id) REFERENCES staff (staff_id),
+  CONSTRAINT fk_rental_inventory FOREIGN KEY (inventory_id) REFERENCES inventory (inventory_id),
+  CONSTRAINT fk_rental_customer FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
+  CONSTRAINT unique_ric UNIQUE (rental_date,inventory_id,customer_id)
+);
+create index idx_fk_inventory_id on rental(inventory_id)
+create index idx_fk_customer_id1 on rental(customer_id)
+create index idx_fk_staff_id1 on rental(staff_id)
 
 CREATE TABLE payment (
   payment_id number(10,0) NOT NULL,
@@ -189,23 +224,19 @@ CREATE TABLE payment (
 create index idx_fk_staff_id on payment(staff_id)
 create index idx_fk_customer_id on payment(customer_id)
 
-CREATE TABLE rental (
-  rental_id number(10,0) NOT NULL,
-  rental_date timestamp NOT NULL,
-  inventory_id number(6,0) NOT NULL,
-  customer_id number(4,0) NOT NULL,
-  return_date timestamp DEFAULT NULL,
-  staff_id number(4,0) NOT NULL,
+CREATE TABLE film_actor (
+  actor_id number(4,0) NOT NULL,
+  film_id number(4,0) NOT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
-  CONSTRAINT "RENTAL_PK" PRIMARY KEY (rental_id),
-  CONSTRAINT fk_rental_staff FOREIGN KEY (staff_id) REFERENCES staff (staff_id),
-  CONSTRAINT fk_rental_inventory FOREIGN KEY (inventory_id) REFERENCES inventory (inventory_id),
-  CONSTRAINT fk_rental_customer FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
-  CONSTRAINT UNIQUE (rental_date,inventory_id,customer_id)
+  CONSTRAINT "FILM_ACTOR_PK" PRIMARY KEY (actor_id),
+  CONSTRAINT fk_film_actor_actor FOREIGN KEY (actor_id) REFERENCES actor (actor_id),
+  CONSTRAINT fk_film_actor_film FOREIGN KEY (film_id) REFERENCES film (film_id)
 )
-create index idx_fk_inventory_id on rental(inventory_id)
-create index idx_fk_customer_id1 on rental(customer_id)
-create index idx_fk_staff_id1 on rental(staff_id)
+CREATE INDEX  idx_fk_film_id1  ON film_actor(film_id)
+
+
+
+
 
 ----------------------------TRIGGERS----------------------------
 
