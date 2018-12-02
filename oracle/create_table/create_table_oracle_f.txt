@@ -413,10 +413,17 @@ CREATE or replace TRIGGER update_city before Update ON City FOR EACH ROW BEGIN
 CREATE VIEW customer_list
 AS
 SELECT cu.customer_id AS ID, CONCAT(cu.first_name,CONCAT(' ', cu.last_name)) AS name, a.address AS address, a.postal_code AS zip code,
-	a.phone AS phone, city.city AS city, country.country AS country, IF(cu.active, _utf8'active',_utf8'') AS notes, cu.store_id AS SID
+	a.phone AS phone, city.city AS city, country.country AS country, case when cu.active=1 then'active'else''end as Notes, cu.store_id AS SID
 FROM customer cu JOIN address a ON cu.address_id = a.address_id JOIN city ON a.city_id = city.city_id
 	JOIN country ON city.country_id = country.country_id;
 	
+case when cu.active=true then
+'active'
+else
+''
+end
+as Notes
+from customer cu	
 	--ver a parte do group_concat
 CREATE VIEW film_list
 AS
