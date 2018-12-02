@@ -72,17 +72,7 @@ CREATE TABLE film_category (
   CONSTRAINT fk_film_category_category FOREIGN KEY (category_id) REFERENCES category (category_id)
 )
 
-CREATE TABLE inventory (
-  inventory_id number(6,0) NOT NULL,
-  film_id number(4,0) NOT NULL,
-  store_id number(4,0) NOT NULL,
-  last_update timestamp DEFAULT (current_timestamp) not null,
-  CONSTRAINT "INVENTORY_PK" PRIMARY KEY (inventory_id),
-  KEY idx_fk_film_id (film_id),
-  KEY idx_store_id_film_id (store_id,film_id),
-  CONSTRAINT fk_inventory_store FOREIGN KEY (store_id) REFERENCES store (store_id),
-  CONSTRAINT fk_inventory_film FOREIGN KEY (film_id) REFERENCES film (film_id)
-)
+
 
 create index idx_fk_film_id on inventory(film_id)
 create index idx_store_id_film_id on inventory(store_id, film_id)
@@ -240,6 +230,8 @@ CREATE INDEX  idx_fk_film_id1  ON film_actor(film_id)
 
 ----------------------------TRIGGERS----------------------------
 
+------ATUALIZAR_TIME_STAMP-----------------------
+
 create or replace trigger atualizar_actor before update on actor
 for each row
 begin
@@ -269,7 +261,24 @@ for each row
 begin
  :NEW.last_update:=current_timestamp;
 end;
+
+create or replace trigger atualizar_inventory before update on inventory
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger film_actor before update on film_actor
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
  
+
+------FIM_ATUALIZAR_TIME_STAMP-----------------------
+
+
+
 CREATE or replace TRIGGER ins_film AFTER INSERT 
 ON film 
 FOR EACH ROW 
@@ -278,12 +287,88 @@ BEGIN
 END;
 
 
- CREATE OR REPLACE TRIGGER del_film AFTER DELETE ON film
+
+
+alter table city modify (country_id null);
+alter table city drop constraint FK_CITY_COUNTRY;
+alter table city add constraint FK_CITY_COUNTRY FOREIGN KEY (country_id) REFERENCES country(country_id) on delete cascade;
+
+alter table address modify (city_id null);
+alter table address drop constraint FK_ADDRESS_CITY
+alter table address add constraint FK_ADDRESS_CITY FOREIGN KEY (city_id) REFERENCES city(city_id) on delete cascade;
+
+alter table customer modify (address_id null);
+alter table customer drop constraint FK_CUSTOMER_ADDRESS
+alter table customer add constraint FK_CUSTOMER_ADDRESS FOREIGN KEY (address_id) REFERENCES address(address_id) on delete set null;
+
+alter table customer modify (store_id null);
+alter table customer drop constraint fk_customer_store
+alter table customer add constraint fk_customer_store FOREIGN KEY (store_id) REFERENCES store(store_id) on delete set null;
+
+
+alter table store modify (MANAGER_STAFF_ID null);
+alter table store drop constraint FK_STORE_STAFF;
+alter table store add constraint FK_STORE_STAFF FOREIGN KEY (MANAGER_STAFF_ID) REFERENCES staff(staff_id) on delete set null;
+
+alter table staff modify (ADDRESS_ID null);
+alter table staff drop constraint FK_STAFF_ADDRESS;
+alter table staff add constraint FK_STAFF_ADDRESS FOREIGN KEY (address_id) REFERENCES address(address_id) on delete set null;
+
+alter table staff modify (store_ID null);
+alter table staff drop constraint FK_STAFF_STORE;
+alter table staff add constraint FK_STAFF_STORE FOREIGN KEY (store_id) REFERENCES store(store_id) on delete set null;
+
+alter table payment modify (customer_id null);
+alter table payment  drop constraint FK_PAYMENT_CUSTOMER;
+alter table payment add constraint FK_PAYMENT_CUSTOMER FOREIGN KEY (customer_id) REFERENCES customer(customer_id) on delete set null;
+
+alter table payment modify (staff_id null);
+alter table payment  drop constraint FK_PAYMENT_STAFF;
+alter table payment add constraint FK_PAYMENT_STAFF FOREIGN KEY (staff_id) REFERENCES staff(staff_id) on delete set null;
+
+alter table payment modify (rental_id null);
+alter table payment  drop constraint FK_PAYMENT_RENTAL;
+alter table payment add constraint FK_PAYMENT_RENTAL FOREIGN KEY (rental_id) REFERENCES rental(rental_id) on delete set null;
+
+--ver se faz sentido no contexto do projeto
+
+alter table rental modify (customer_id null);
+alter table rental  drop constraint FK_RENTAL_CUSTOMER;
+alter table rental add constraint FK_RENTAL_CUSTOMER FOREIGN KEY (customer_id) REFERENCES customer(customer_id) on delete set null;
+
+alter table rental modify (staff_id null);
+alter table rental  drop constraint FK_RENTAL_STAFF;
+alter table rental add constraint FK_RENTAL_STAFF FOREIGN KEY (staff_id) REFERENCES staff(staff_id) on delete set null;
+
+alter table rental modify (inventory_id null);
+alter table rental  drop constraint FK_RENTAL_INVENTORY;
+alter table rental add constraint FK_RENTAL_INVENTORY FOREIGN KEY (inventory_id) REFERENCES inventory(inventory_id) on delete set null;
+
+---fim ver--
+
+alter table film modify (language_id null);
+alter table film drop constraint FK_FILM_LANGUAGE;
+alter table film add constraint FK_FILM_LANGUAGE FOREIGN KEY (language_id) REFERENCES language(language_id) on delete set null;
+
+alter table film  drop constraint FK_FILM_LANGUAGE_ORIGINAL;
+alter table film add constraint FK_FILM_LANGUAGE_ORIGINAL FOREIGN KEY (original_language_id) REFERENCES language(language_id) on delete set null;
+
+--ver se esta correto--
+
+alter table inventory modify (store_id null);
+alter table inventory  drop constraint FK_INVENTORY_STORE;
+alter table inventory add constraint FK_INVENTORY_STORE FOREIGN KEY (store_id) REFERENCES store(store_id) on delete set null;
+
+--fim-ver--
+
+  CREATE OR REPLACE TRIGGER del_film AFTER DELETE ON film
 FOR EACH ROW 
 BEGIN
     DELETE FROM film_text WHERE film_id = :old.film_id;
+    Delete from inventory where film_id=:old.film_id; -- acrescentei isto porque nao faz muito sentido termos ni inventorio um id de um livro que foi eliminado
  END;
- 
+
+
 CREATE or replace TRIGGER upd_film AFTER UPDATE ON film FOR EACH ROW BEGIN
     IF (:old.title != :new.title) OR (:old.description != :new.description) OR (:old.film_id != :new.film_id)
     THEN
@@ -298,14 +383,7 @@ CREATE or replace TRIGGER upd_film AFTER UPDATE ON film FOR EACH ROW BEGIN
   
   
   
-CREATE or replace TRIGGER del_city before Delete ON city FOR EACH ROW BEGIN
-    Delete from address where city_id=:old.city_id;
-END;
 
-
-CREATE or replace TRIGGER del_country before Delete ON Country FOR EACH ROW BEGIN
-    Delete from city where country_Id=:old.country_id;
-END;
 
 CREATE or replace TRIGGER update_country before Update ON Country FOR EACH ROW BEGIN
     if(:new.country_id!=:old.country_id) then
@@ -314,6 +392,12 @@ CREATE or replace TRIGGER update_country before Update ON Country FOR EACH ROW B
     end if;
   END;
   
+CREATE or replace TRIGGER update_address before Update ON address FOR EACH ROW BEGIN
+    if(:new.address_id!=:old.address_id) then
+        Update customer set address_id=:new.address_id where address_id=:old.address_id;
+    
+    end if;
+  END;
 
 CREATE or replace TRIGGER update_city before Update ON City FOR EACH ROW BEGIN
     if(:new.city_id!=:old.city_id) then
@@ -323,10 +407,6 @@ CREATE or replace TRIGGER update_city before Update ON City FOR EACH ROW BEGIN
   END;
 
   
- -- nao testado (ver se eliminar um country elemina tudo ate ao customer)
-CREATE or replace TRIGGER del_address before Delete ON address FOR EACH ROW BEGIN
-    Delete from customer where address_id=:old.address_id;
-END;  
 
  -----------------------------VIEWS---------------------------------------
 --ver o if
