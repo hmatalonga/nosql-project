@@ -4,5 +4,5 @@ DB="sakila"
 COLLECTION="$1"
 FILE="$2"
 
-mongoimport --db test --collection $COLLECTION \
+mongoimport --db $DB --collection $COLLECTION \
             --drop --file $FILE
