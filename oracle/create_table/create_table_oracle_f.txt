@@ -409,45 +409,38 @@ CREATE or replace TRIGGER update_city before Update ON City FOR EACH ROW BEGIN
   
 
  -----------------------------VIEWS---------------------------------------
---ver o if
+
 CREATE VIEW customer_list
 AS
-SELECT cu.customer_id AS ID, CONCAT(cu.first_name,CONCAT(' ', cu.last_name)) AS name, a.address AS address, a.postal_code AS zip code,
+SELECT cu.customer_id AS ID, CONCAT(cu.first_name,CONCAT(' ', cu.last_name)) AS name, a.address AS address, a.postal_code AS zip_code,
 	a.phone AS phone, city.city AS city, country.country AS country, case when cu.active=1 then'active'else''end as Notes, cu.store_id AS SID
 FROM customer cu JOIN address a ON cu.address_id = a.address_id JOIN city ON a.city_id = city.city_id
 	JOIN country ON city.country_id = country.country_id;
 	
-case when cu.active=true then
-'active'
-else
-''
-end
-as Notes
-from customer cu	
-	--ver a parte do group_concat
+
+--testar	
 CREATE VIEW film_list
 AS
 SELECT film.film_id AS FID, film.title AS title, film.description AS description, category.name AS category, film.rental_rate AS price,
-	film.length AS length, film.rating AS rating, GROUP_CONCAT(CONCAT(actor.first_name, CONCAT(' ', actor.last_name)) SEPARATOR ', ') AS actors
+	film.length AS length, film.rating AS rating, listagg(actor.first_name, ',') WITHIN GROUP (ORDER BY actor.first_name) as actors
 FROM category LEFT JOIN film_category ON category.category_id = film_category.category_id LEFT JOIN film ON film_category.film_id = film.film_id
         JOIN film_actor ON film.film_id = film_actor.film_id
 	JOIN actor ON film_actor.actor_id = actor.actor_id
-GROUP BY film.film_id, category.name;	
+GROUP BY film.film_id, category.name, film.title, film.description, film.rental_rate, 
+film.length, film.rating;
 
-
---VER PORQUE ACHO QUE APENAS ESTA A RETORNAR O PRIMEIRO E ULTIMO NOME SEPARADOS POR VIRGULAS
+--testar
 CREATE VIEW nicer_but_slower_film_list
 AS
 SELECT film.film_id AS FID, film.title AS title, film.description AS description, category.name AS category, film.rental_rate AS price,
-	film.length AS length, film.rating AS rating, GROUP_CONCAT(CONCAT(CONCAT(UPPER(SUBSTR(actor.first_name,1,1)),
-	LOWER(SUBSTR(actor.first_name,2,LENGTH(actor.first_name))),' ',CONCAT(UPPER(SUBSTR(actor.last_name,1,1)),
-	LOWER(SUBSTR(actor.last_name,2,LENGTH(actor.last_name)))))) SEPARATOR ', ') AS actors
+	film.length AS length, film.rating AS rating, listagg(UPPER(SUBSTR(actor.first_name,1,1))||
+	LOWER(SUBSTR(actor.first_name,2,LENGTH(actor.first_name)))||' '||UPPER(SUBSTR(actor.last_name,1,1))||
+	LOWER(SUBSTR(actor.last_name,2,LENGTH(actor.last_name))), ', ') WITHIN GROUP ( order by UPPER(SUBSTR(actor.first_name,1,1))||
+	LOWER(SUBSTR(actor.first_name,2,LENGTH(actor.first_name)))||' '||UPPER(SUBSTR(actor.last_name,1,1))||
+	LOWER(SUBSTR(actor.last_name,2,LENGTH(actor.last_name))), ', ') AS actors 
 FROM category LEFT JOIN film_category ON category.category_id = film_category.category_id LEFT JOIN film ON film_category.film_id = film.film_id
         JOIN film_actor ON film.film_id = film_actor.film_id
 	JOIN actor ON film_actor.actor_id = actor.actor_id
-GROUP BY film.film_id, category.name;
-
-select CONCAT(UPPER(SUBSTR(actor.last_name,1,1)),
-	LOWER(SUBSTR(actor.last_name,2,LENGTH(actor.last_name)))) from actor
-	
+GROUP BY film.film_id, category.name, film.title, film.description, film.rental_rate, 
+film.length, film.rating;
 	
