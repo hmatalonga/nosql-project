@@ -7,41 +7,36 @@ CREATE TABLE actor (
   last_name VARCHAR2(45) NOT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "ACTOR_PK" PRIMARY KEY (actor_id)
- 
-)
-
-CREATE INDEX  idx_actor_last_name  ON actor(last_name)
-
+);
+CREATE INDEX  idx_actor_last_name  ON actor(last_name);
 
 CREATE TABLE category (
   category_id number(4,0) NOT NULL,
-  name VARCHAR(25) NOT NULL,
+  name VARCHAR2(25) NOT NULL,
    last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "CATEGORY_PK" PRIMARY KEY (category_id)
-)
-
-
+);
 CREATE TABLE film_text (
   film_id number(4,0) NOT NULL,
-  title VARCHAR(255) NOT NULL,
-  description clob,
+  title VARCHAR2(255) NOT NULL,
+  description varchar2(255),
   CONSTRAINT "FILM_PK" PRIMARY KEY (film_id)
- )
+ );
  
- create index idx_title_description on film_text(title,description)
- 
+ create index idx_title_description on film_text(title,description);
+
   CREATE TABLE language (
   language_id number(4,0) NOT NULL,
   name CHAR(20) NOT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "LANGUAGE_PK" PRIMARY KEY (language_id)
-)
+);
 
 
 CREATE TABLE film (
   film_id number(4,0) NOT NULL,
-  title VARCHAR(255) NOT NULL,
-  description clob DEFAULT NULL,
+  title VARCHAR2(255) NOT NULL,
+  description varchar2(255) DEFAULT NULL,
   release_year number(4,0) DEFAULT NULL,
   language_id number(4,0) NOT NULL,
   original_language_id number(4,0) DEFAULT NULL,
@@ -49,19 +44,19 @@ CREATE TABLE film (
   rental_rate number(4,2) DEFAULT 4.99 NOT NULL,
   length number(4,0) DEFAULT NULL,
   replacement_cost number(5,2) DEFAULT 19.99 NOT NULL,
-  rating varchar(100) DEFAULT 'G',
-  special_features varchar(255) DEFAULT NULL,
+  rating varchar2(100) DEFAULT 'G',
+  special_features varchar2(255) DEFAULT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "FILM1_PK" PRIMARY KEY (film_id),
   constraint check_rating check (rating in ('G','PG','PG-13','R','NC-17')),
   constraint check_special_features check (special_features in ('Trailers','Commentaries','Deleted Scenes','Behind the Scenes')),
   CONSTRAINT fk_film_language FOREIGN KEY (language_id) REFERENCES language (language_id),
   CONSTRAINT fk_film_language_original FOREIGN KEY (original_language_id) REFERENCES language (language_id)
-)
+);
 
-create index idx_title on film(title)
-create index idx_fk_language_id on film(language_id)
-create index idx_fk_original_language_id on film(original_language_id)
+create index idx_title on film(title);
+create index idx_fk_language_id on film(language_id);
+create index idx_fk_original_language_id on film(original_language_id);
 
 CREATE TABLE film_category (
   film_id number(4,0)  NOT NULL,
@@ -70,19 +65,14 @@ CREATE TABLE film_category (
   CONSTRAINT "FILM_CATEGORY_PK" PRIMARY KEY (film_id,category_id),
   CONSTRAINT fk_film_category_film FOREIGN KEY (film_id) REFERENCES film (film_id),
   CONSTRAINT fk_film_category_category FOREIGN KEY (category_id) REFERENCES category (category_id)
-)
-
-
-
-create index idx_fk_film_id on inventory(film_id)
-create index idx_store_id_film_id on inventory(store_id, film_id)
+);
 
 CREATE TABLE country (
   country_id number(4,0) NOT NULL,
   country VARCHAR2(50) NOT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "COUNTRY_PK" PRIMARY KEY (country_id)
-)
+);
 
 CREATE TABLE city (
   city_id number(4,0) NOT NULL,
@@ -91,12 +81,8 @@ CREATE TABLE city (
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "CITY_PK" PRIMARY KEY (city_id),
   CONSTRAINT fk_city_country FOREIGN KEY (country_id) REFERENCES country (country_id)
-)
-
-
-
-
-create index idx_fk_country_id on city(country_id)
+);
+create index idx_fk_country_id on city(country_id);
 CREATE TABLE address (
   address_id number(4,0) NOT NULL,
   address VARCHAR2(50) NOT NULL,
@@ -108,8 +94,8 @@ CREATE TABLE address (
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "ADDRESS_PK" PRIMARY KEY (address_id),
   CONSTRAINT fk_address_city FOREIGN KEY (city_id) REFERENCES city (city_id)
-)
-create index idx_fk_city_id on address(city_id)
+);
+create index idx_fk_city_id on address(city_id);
 
 CREATE TABLE staff (
   staff_id number(4,0) NOT NULL,
@@ -125,10 +111,10 @@ CREATE TABLE staff (
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "STAFF_PK" PRIMARY KEY (staff_id),
   CONSTRAINT fk_staff_address FOREIGN KEY (address_id) REFERENCES address (address_id)
-)
+);
 
-create index idx_fk_store_id on staff(store_id)
-create index idx_fk_address_id on staff(address_id)
+create index idx_fk_store_id on staff(store_id);
+create index idx_fk_address_id on staff(address_id);
 
 CREATE TABLE store (
   store_id number(4,0) NOT NULL,
@@ -138,9 +124,9 @@ CREATE TABLE store (
   CONSTRAINT "STORE_PK" PRIMARY KEY (store_id),
   CONSTRAINT fk_store_address FOREIGN KEY (address_id) REFERENCES address (address_id),
   CONSTRAINT idx_unique_manager UNIQUE (manager_staff_id)
-)
+);
 
-create index idx_fk_address_id1 on store(address_id)
+create index idx_fk_address_id1 on store(address_id);
 
 ALTER TABLE staff ADD CONSTRAINT fk_staff_store FOREIGN KEY (store_id) REFERENCES store(store_id);
   
@@ -155,10 +141,10 @@ ALTER TABLE store ADD CONSTRAINT fk_store_staff FOREIGN KEY (manager_staff_id) R
   CONSTRAINT "INVENTORY_PK" PRIMARY KEY (inventory_id),
   CONSTRAINT fk_inventory_store FOREIGN KEY (store_id) REFERENCES store (store_id),
   CONSTRAINT fk_inventory_film FOREIGN KEY (film_id) REFERENCES film (film_id)
-)
+);
 
-create index idx_fk_film_id on inventory(film_id)
-create index idx_store_id_film_id on inventory(store_id, film_id)
+create index idx_fk_film_id on inventory(film_id);
+create index idx_store_id_film_id on inventory(store_id, film_id);
 
 CREATE TABLE customer (
   customer_id number(4,0) NOT NULL,
@@ -168,16 +154,16 @@ CREATE TABLE customer (
   email VARCHAR2(50) NOT NULL,
   address_id number(4,0) NOT NULL,
   active NUMBER(1,0) NOT NULL,
-  create_date date NOT NULL,
+  create_date timestamp NOT NULL,
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "CUSTOMER_PK" PRIMARY KEY (customer_id),
   CONSTRAINT fk_customer_address FOREIGN KEY (address_id) REFERENCES address (address_id),
   CONSTRAINT fk_customer_store FOREIGN KEY (store_id) REFERENCES store (store_id)
-)
+);
 
-create index idx_fk_store_id1 on customer(store_id)
-create index idx_fk_address_id1 on customer(address_id)
-create index idx_last_name on customer(last_name)
+create index idx_fk_store_id1 on customer(store_id);
+create index idx_fk_address_id2 on customer(address_id);
+create index idx_last_name on customer(last_name);
 
 
 CREATE TABLE rental (
@@ -194,9 +180,9 @@ CREATE TABLE rental (
   CONSTRAINT fk_rental_customer FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
   CONSTRAINT unique_ric UNIQUE (rental_date,inventory_id,customer_id)
 );
-create index idx_fk_inventory_id on rental(inventory_id)
-create index idx_fk_customer_id1 on rental(customer_id)
-create index idx_fk_staff_id1 on rental(staff_id)
+create index idx_fk_inventory_id on rental(inventory_id);
+create index idx_fk_customer_id1 on rental(customer_id);
+create index idx_fk_staff_id1 on rental(staff_id);
 
 CREATE TABLE payment (
   payment_id number(10,0) NOT NULL,
@@ -210,9 +196,9 @@ CREATE TABLE payment (
   CONSTRAINT fk_payment_rental FOREIGN KEY (rental_id) REFERENCES rental (rental_id),
   CONSTRAINT fk_payment_customer FOREIGN KEY (customer_id) REFERENCES customer (customer_id),
   CONSTRAINT fk_payment_staff FOREIGN KEY (staff_id) REFERENCES staff (staff_id)
-)
-create index idx_fk_staff_id on payment(staff_id)
-create index idx_fk_customer_id on payment(customer_id)
+);
+create index idx_fk_staff_id on payment(staff_id);
+create index idx_fk_customer_id on payment(customer_id);
 
 CREATE TABLE film_actor (
   actor_id number(4,0) NOT NULL,
@@ -221,11 +207,8 @@ CREATE TABLE film_actor (
   CONSTRAINT "FILM_ACTOR_PK" PRIMARY KEY (actor_id),
   CONSTRAINT fk_film_actor_actor FOREIGN KEY (actor_id) REFERENCES actor (actor_id),
   CONSTRAINT fk_film_actor_film FOREIGN KEY (film_id) REFERENCES film (film_id)
-)
-CREATE INDEX  idx_fk_film_id1  ON film_actor(film_id)
-
-
-
+);
+CREATE INDEX  idx_fk_film_id1  ON film_actor(film_id);
 
 
 ----------------------------TRIGGERS----------------------------
@@ -481,3 +464,168 @@ INNER JOIN film_category  fc ON f.film_id = fc.film_id
 INNER JOIN category  c ON fc.category_id = c.category_id
 GROUP BY c.name
 ORDER BY total_sales DESC;
+
+
+----------------END VIEWS----------------------------------
+
+
+
+---------Procedures and Functions------------------------------------
+
+
+CREATE OR REPLACE FUNCTION inventory_in_stock(p_inventory_id number) RETURN char is
+v_rentals number;
+v_out     number;
+BEGIN
+    --AN ITEM IS IN-STOCK IF THERE ARE EITHER NO ROWS IN THE rental TABLE
+    --FOR THE ITEM OR ALL ROWS HAVE return_date POPULATED
+
+    SELECT COUNT(*) INTO v_rentals
+    FROM rental
+    WHERE inventory_id = p_inventory_id;
+
+    IF v_rentals = 0 THEN
+     RETURN '1';
+    END IF;
+
+    SELECT COUNT(rental_id) INTO v_out
+    FROM inventory LEFT JOIN rental  on inventory.inventory_id = p_inventory_id
+    where rental.return_date IS NULL;
+
+    IF v_out > 0 THEN
+      return '0';
+    ELSE
+     RETURN '1';
+    END IF;
+END;
+
+
+
+
+
+
+CREATE OR REPLACE PROCEDURE rewards_report( min_monthly_purchases in number, min_dollar_amount_purchased in number, count_rewardees out number) IS  
+    last_month_start date;
+    last_month_end date;
+    BEGIN
+
+    /* Some sanity checks... */
+    --SET SERVEROUTPUT ON ---PARA O OUTPUT STRING
+    IF min_monthly_purchases = 0 THEN
+        BEGIN
+        Dbms_Output.Put_Line('Minimum monthly purchases parameter must be > 0');
+        END;
+        RETURN;
+    END IF;
+    IF min_dollar_amount_purchased = 0.00 THEN
+        BEGIN
+        Dbms_Output.Put_Line('Minimum monthly dollar amount purchased parameter must be > $0.00');
+        END;
+        Return;
+    END IF;
+
+    /* Determine start and end time periods */
+    SELECT TO_DATE(to_char(sysdate, 'YYYY')||'-'||to_char(add_months(sysdate,-1),'MM')||'-01','YYYY-MM-DD') INTO last_month_start FROM DUAL;
+    SELECT LAST_DAY(last_month_start) INTO last_month_end FROM DUAL;
+    /*
+        Find all customers meeting the
+        monthly purchase requirements
+    */
+   /* Populate OUT parameter with count of found customers */
+    WITH tmpCustomer AS 
+    (SELECT p.customer_id
+    FROM payment p
+    WHERE p.payment_date BETWEEN last_month_start AND last_month_end
+    GROUP BY customer_id
+    HAVING SUM(p.amount) > min_dollar_amount_purchased
+    AND COUNT(customer_id) > min_monthly_purchases)
+    SELECT COUNT(*) INTO count_rewardees FROM tmpCustomer;
+
+END;
+
+
+
+
+
+
+CREATE OR REPLACE PROCEDURE film_in_stock(p_film_id number, p_store_id number,  p_film_count OUT number) As
+BEGIN
+     SELECT COUNT(*) INTO p_film_count FROM inventory
+     WHERE film_id = p_film_id
+     AND store_id = p_store_id
+     AND inventory_in_stock(inventory_id)='1';
+END;
+
+
+
+
+
+
+CREATE OR REPLACE PROCEDURE film_not_in_stock(p_film_id number, p_store_id number, p_film_count out number)
+As
+BEGIN
+     SELECT count(*) INTO p_film_count FROM inventory
+     WHERE film_id = p_film_id
+     AND store_id = p_store_id
+     AND inventory_in_stock(inventory_id) = '0';
+END;
+
+
+
+CREATE OR REPLACE FUNCTION inventory_held_by_customer(p_inventory_id number) RETURN Number is
+v_customer_id number;
+BEGIN
+
+  SELECT customer_id INTO v_customer_id
+  FROM rental
+  WHERE return_date IS NULL
+  AND inventory_id = p_inventory_id;
+  
+  IF v_customer_id is not null THEN
+      RETURN v_customer_id;
+    ELSE
+     RETURN NULL;
+    END IF;
+  
+END;
+
+CREATE OR REPLACE FUNCTION get_customer_balance(p_customer_id NUMBER, p_effective_date TIMESTAMP) RETURN NUMBER  IS
+
+  v_rentfees NUMBER(5,2); --FEES PAID TO RENT THE VIDEOS INITIALLY
+  v_overfees NUMBER;      --LATE FEES FOR PRIOR RENTALS
+  v_payments NUMBER(5,2); --SUM OF PAYMENTS MADE PREVIOUSLY
+BEGIN
+
+       --OK, WE NEED TO CALCULATE THE CURRENT BALANCE GIVEN A CUSTOMER_ID AND A DATE
+       --THAT WE WANT THE BALANCE TO BE EFFECTIVE FOR. THE BALANCE IS:
+       --   1) RENTAL FEES FOR ALL PREVIOUS RENTALS
+       --   2) ONE DOLLAR FOR EVERY DAY THE PREVIOUS RENTALS ARE OVERDUE
+       --   3) IF A FILM IS MORE THAN RENTAL_DURATION * 2 OVERDUE, CHARGE THE REPLACEMENT_COST
+       --   4) SUBTRACT ALL PAYMENTS MADE BEFORE THE DATE SPECIFIED
+
+  SELECT NVL(SUM(film.rental_rate),0) INTO v_rentfees
+    FROM film, inventory, rental
+    WHERE film.film_id = inventory.film_id
+      AND inventory.inventory_id = rental.inventory_id
+      AND rental.rental_date <= p_effective_date
+      AND rental.customer_id = p_customer_id;
+
+    SELECT NVL(SUM(CASE WHEN TO_NUMBER(r.return_date - r.rental_date) > f.rental_duration THEN
+    TO_NUMBER(r.return_date - r.rental_date) - f.rental_duration ELSE 0 END),0) INTO v_overfees
+    FROM rental r, inventory i, film f
+    WHERE f.film_id = i.film_id
+      AND i.inventory_id = r.inventory_id
+      AND r.rental_date <= p_effective_date
+      AND r.customer_id = p_customer_id;
+
+
+  SELECT NVL(SUM(P.amount),0) INTO v_payments
+    FROM payment p
+    WHERE p.payment_date <= p_effective_date
+    AND p.customer_id = p_customer_id;
+
+  RETURN v_rentfees + v_overfees - v_payments;
+END;
+
+------------END---------------------------------------------------------------------
+
