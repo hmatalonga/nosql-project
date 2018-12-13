@@ -1,6 +1,3 @@
-|INSERT INTO customer VALUES (1,1,'MARY','SMITH','MARY.SMITH@sakilacustomer.org',5,1, to_date('2006-02-14 22:04:36','yyyy-mm-dd hh24:mi:ss'), to_timestamp('2006-02-15 04:57:20','yyyy-mm-dd hh24:mi:ss'));|
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 CREATE TABLE actor (
   actor_id number(4,0) NOT NULL,
   first_name VARCHAR2(45) NOT NULL,
@@ -401,7 +398,6 @@ FROM customer cu JOIN address a ON cu.address_id = a.address_id JOIN city ON a.c
 	JOIN country ON city.country_id = country.country_id;
 
 
---testar
 CREATE VIEW film_list
 AS
 SELECT film.film_id AS FID, film.title AS title, film.description AS description, category.name AS category, film.rental_rate AS price,
@@ -412,7 +408,7 @@ FROM category LEFT JOIN film_category ON category.category_id = film_category.ca
 GROUP BY film.film_id, category.name, film.title, film.description, film.rental_rate,
 film.length, film.rating;
 
---testar
+
 CREATE VIEW nicer_but_slower_film_list
 AS
 SELECT film.film_id AS FID, film.title AS title, film.description AS description, category.name AS category, film.rental_rate AS price,
