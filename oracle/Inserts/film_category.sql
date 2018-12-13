@@ -1,1999 +1,1999 @@
-INSERT INTO film_category VALUES (1,6,'2006-02-15 05:07:09');
+INSERT INTO film_category VALUES (1,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(2,11,'2006-02-15 05:07:09');
+(2,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(3,6,'2006-02-15 05:07:09');
+(3,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(4,11,'2006-02-15 05:07:09');
+(4,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(5,8,'2006-02-15 05:07:09');
+(5,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(6,9,'2006-02-15 05:07:09');
+(6,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(7,5,'2006-02-15 05:07:09');
+(7,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(8,11,'2006-02-15 05:07:09');
+(8,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(9,11,'2006-02-15 05:07:09');
+(9,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(10,15,'2006-02-15 05:07:09');
+(10,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(11,9,'2006-02-15 05:07:09');
+(11,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(12,12,'2006-02-15 05:07:09');
+(12,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(13,11,'2006-02-15 05:07:09');
+(13,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(14,4,'2006-02-15 05:07:09');
+(14,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(15,9,'2006-02-15 05:07:09');
+(15,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(16,9,'2006-02-15 05:07:09');
+(16,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(17,12,'2006-02-15 05:07:09');
+(17,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(18,2,'2006-02-15 05:07:09');
+(18,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(19,1,'2006-02-15 05:07:09');
+(19,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(20,12,'2006-02-15 05:07:09');
+(20,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(21,1,'2006-02-15 05:07:09');
+(21,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(22,13,'2006-02-15 05:07:09');
+(22,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(23,2,'2006-02-15 05:07:09');
+(23,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(24,11,'2006-02-15 05:07:09');
+(24,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(25,13,'2006-02-15 05:07:09');
+(25,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(26,14,'2006-02-15 05:07:09');
+(26,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(27,15,'2006-02-15 05:07:09');
+(27,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(28,5,'2006-02-15 05:07:09');
+(28,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(29,1,'2006-02-15 05:07:09');
+(29,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(30,11,'2006-02-15 05:07:09');
+(30,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(31,8,'2006-02-15 05:07:09');
+(31,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(32,13,'2006-02-15 05:07:09');
+(32,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(33,7,'2006-02-15 05:07:09');
+(33,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(34,11,'2006-02-15 05:07:09');
+(34,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(35,11,'2006-02-15 05:07:09');
+(35,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(36,2,'2006-02-15 05:07:09');
+(36,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(37,4,'2006-02-15 05:07:09');
+(37,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(38,1,'2006-02-15 05:07:09');
+(38,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(39,14,'2006-02-15 05:07:09');
+(39,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(40,6,'2006-02-15 05:07:09');
+(40,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(41,16,'2006-02-15 05:07:09');
+(41,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(42,15,'2006-02-15 05:07:09');
+(42,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(43,8,'2006-02-15 05:07:09');
+(43,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(44,14,'2006-02-15 05:07:09');
+(44,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(45,13,'2006-02-15 05:07:09');
+(45,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(46,10,'2006-02-15 05:07:09');
+(46,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(47,9,'2006-02-15 05:07:09');
+(47,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(48,3,'2006-02-15 05:07:09');
+(48,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(49,14,'2006-02-15 05:07:09');
+(49,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(50,8,'2006-02-15 05:07:09');
+(50,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(51,12,'2006-02-15 05:07:09');
+(51,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(52,9,'2006-02-15 05:07:09');
+(52,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(53,8,'2006-02-15 05:07:09');
+(53,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(54,12,'2006-02-15 05:07:09');
+(54,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(55,14,'2006-02-15 05:07:09');
+(55,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(56,1,'2006-02-15 05:07:09');
+(56,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(57,16,'2006-02-15 05:07:09');
+(57,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(58,6,'2006-02-15 05:07:09');
+(58,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(59,3,'2006-02-15 05:07:09');
+(59,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(60,4,'2006-02-15 05:07:09');
+(60,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(61,7,'2006-02-15 05:07:09');
+(61,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(62,6,'2006-02-15 05:07:09');
+(62,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(63,8,'2006-02-15 05:07:09');
+(63,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(64,7,'2006-02-15 05:07:09');
+(64,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(65,11,'2006-02-15 05:07:09');
+(65,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(66,3,'2006-02-15 05:07:09');
+(66,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(67,1,'2006-02-15 05:07:09');
+(67,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(68,3,'2006-02-15 05:07:09');
+(68,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(69,14,'2006-02-15 05:07:09');
+(69,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(70,2,'2006-02-15 05:07:09');
+(70,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(71,8,'2006-02-15 05:07:09');
+(71,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(72,6,'2006-02-15 05:07:09');
+(72,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(73,14,'2006-02-15 05:07:09');
+(73,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(74,12,'2006-02-15 05:07:09');
+(74,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(75,16,'2006-02-15 05:07:09');
+(75,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(76,12,'2006-02-15 05:07:09');
+(76,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(77,13,'2006-02-15 05:07:09');
+(77,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(78,2,'2006-02-15 05:07:09');
+(78,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(79,7,'2006-02-15 05:07:09');
+(79,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(80,8,'2006-02-15 05:07:09');
+(80,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(81,14,'2006-02-15 05:07:09');
+(81,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(82,8,'2006-02-15 05:07:09');
+(82,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(83,8,'2006-02-15 05:07:09');
+(83,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(84,16,'2006-02-15 05:07:09');
+(84,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(85,6,'2006-02-15 05:07:09');
+(85,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(86,12,'2006-02-15 05:07:09');
+(86,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(87,16,'2006-02-15 05:07:09');
+(87,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(88,16,'2006-02-15 05:07:09');
+(88,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(89,2,'2006-02-15 05:07:09');
+(89,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(90,13,'2006-02-15 05:07:09');
+(90,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(91,4,'2006-02-15 05:07:09');
+(91,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(92,11,'2006-02-15 05:07:09');
+(92,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(93,13,'2006-02-15 05:07:09');
+(93,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(94,8,'2006-02-15 05:07:09');
+(94,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(95,13,'2006-02-15 05:07:09');
+(95,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(96,13,'2006-02-15 05:07:09');
+(96,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(97,1,'2006-02-15 05:07:09');
+(97,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(98,7,'2006-02-15 05:07:09');
+(98,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(99,5,'2006-02-15 05:07:09');
+(99,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(100,9,'2006-02-15 05:07:09');
+(100,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(101,6,'2006-02-15 05:07:09');
+(101,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(102,15,'2006-02-15 05:07:09');
+(102,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(103,16,'2006-02-15 05:07:09');
+(103,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(104,9,'2006-02-15 05:07:09');
+(104,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(105,1,'2006-02-15 05:07:09');
+(105,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(106,10,'2006-02-15 05:07:09');
+(106,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(107,7,'2006-02-15 05:07:09');
+(107,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(108,13,'2006-02-15 05:07:09');
+(108,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(109,13,'2006-02-15 05:07:09');
+(109,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(110,3,'2006-02-15 05:07:09');
+(110,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(111,1,'2006-02-15 05:07:09');
+(111,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(112,9,'2006-02-15 05:07:09');
+(112,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(113,15,'2006-02-15 05:07:09');
+(113,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(114,14,'2006-02-15 05:07:09');
+(114,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(115,1,'2006-02-15 05:07:09');
+(115,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(116,4,'2006-02-15 05:07:09');
+(116,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(117,10,'2006-02-15 05:07:09');
+(117,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(118,2,'2006-02-15 05:07:09');
+(118,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(119,5,'2006-02-15 05:07:09');
+(119,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(120,15,'2006-02-15 05:07:09');
+(120,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(121,2,'2006-02-15 05:07:09');
+(121,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(122,11,'2006-02-15 05:07:09');
+(122,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(123,16,'2006-02-15 05:07:09');
+(123,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(124,3,'2006-02-15 05:07:09');
+(124,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(125,16,'2006-02-15 05:07:09');
+(125,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(126,1,'2006-02-15 05:07:09');
+(126,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(127,5,'2006-02-15 05:07:09');
+(127,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(128,9,'2006-02-15 05:07:09');
+(128,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(129,6,'2006-02-15 05:07:09');
+(129,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(130,1,'2006-02-15 05:07:09');
+(130,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(131,4,'2006-02-15 05:07:09');
+(131,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(132,14,'2006-02-15 05:07:09');
+(132,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(133,12,'2006-02-15 05:07:09');
+(133,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(134,2,'2006-02-15 05:07:09');
+(134,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(135,15,'2006-02-15 05:07:09');
+(135,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(136,13,'2006-02-15 05:07:09');
+(136,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(137,14,'2006-02-15 05:07:09');
+(137,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(138,14,'2006-02-15 05:07:09');
+(138,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(139,8,'2006-02-15 05:07:09');
+(139,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(140,14,'2006-02-15 05:07:09');
+(140,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(141,10,'2006-02-15 05:07:09');
+(141,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(142,6,'2006-02-15 05:07:09');
+(142,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(143,7,'2006-02-15 05:07:09');
+(143,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(144,13,'2006-02-15 05:07:09');
+(144,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(145,8,'2006-02-15 05:07:09');
+(145,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(146,7,'2006-02-15 05:07:09');
+(146,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(147,8,'2006-02-15 05:07:09');
+(147,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(148,9,'2006-02-15 05:07:09');
+(148,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(149,3,'2006-02-15 05:07:09');
+(149,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(150,6,'2006-02-15 05:07:09');
+(150,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(151,14,'2006-02-15 05:07:09');
+(151,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(152,3,'2006-02-15 05:07:09');
+(152,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(153,14,'2006-02-15 05:07:09');
+(153,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(154,2,'2006-02-15 05:07:09');
+(154,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(155,13,'2006-02-15 05:07:09');
+(155,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(156,6,'2006-02-15 05:07:09');
+(156,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(157,3,'2006-02-15 05:07:09');
+(157,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(158,12,'2006-02-15 05:07:09');
+(158,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(159,5,'2006-02-15 05:07:09');
+(159,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(160,2,'2006-02-15 05:07:09');
+(160,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(161,12,'2006-02-15 05:07:09');
+(161,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(162,1,'2006-02-15 05:07:09');
+(162,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(163,13,'2006-02-15 05:07:09');
+(163,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(164,6,'2006-02-15 05:07:09');
+(164,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(165,14,'2006-02-15 05:07:09');
+(165,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(166,4,'2006-02-15 05:07:09');
+(166,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(167,16,'2006-02-15 05:07:09');
+(167,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(168,3,'2006-02-15 05:07:09');
+(168,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(169,16,'2006-02-15 05:07:09');
+(169,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(170,9,'2006-02-15 05:07:09');
+(170,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(171,11,'2006-02-15 05:07:09');
+(171,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(172,7,'2006-02-15 05:07:09');
+(172,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(173,7,'2006-02-15 05:07:09');
+(173,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(174,12,'2006-02-15 05:07:09');
+(174,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(175,8,'2006-02-15 05:07:09');
+(175,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(176,15,'2006-02-15 05:07:09');
+(176,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(177,14,'2006-02-15 05:07:09');
+(177,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(178,5,'2006-02-15 05:07:09');
+(178,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(179,7,'2006-02-15 05:07:09');
+(179,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(180,4,'2006-02-15 05:07:09');
+(180,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(181,16,'2006-02-15 05:07:09');
+(181,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(182,5,'2006-02-15 05:07:09');
+(182,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(183,8,'2006-02-15 05:07:09');
+(183,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(184,4,'2006-02-15 05:07:09');
+(184,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(185,9,'2006-02-15 05:07:09');
+(185,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(186,7,'2006-02-15 05:07:09');
+(186,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(187,15,'2006-02-15 05:07:09');
+(187,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(188,5,'2006-02-15 05:07:09');
+(188,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(189,10,'2006-02-15 05:07:09');
+(189,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(190,4,'2006-02-15 05:07:09');
+(190,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(191,3,'2006-02-15 05:07:09');
+(191,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(192,9,'2006-02-15 05:07:09');
+(192,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(193,2,'2006-02-15 05:07:09');
+(193,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(194,1,'2006-02-15 05:07:09');
+(194,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(195,14,'2006-02-15 05:07:09');
+(195,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(196,4,'2006-02-15 05:07:09');
+(196,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(197,15,'2006-02-15 05:07:09');
+(197,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(198,9,'2006-02-15 05:07:09');
+(198,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(199,6,'2006-02-15 05:07:09');
+(199,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(200,10,'2006-02-15 05:07:09');
+(200,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(201,9,'2006-02-15 05:07:09');
+(201,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(202,5,'2006-02-15 05:07:09');
+(202,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(203,14,'2006-02-15 05:07:09');
+(203,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(204,7,'2006-02-15 05:07:09');
+(204,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(205,1,'2006-02-15 05:07:09');
+(205,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(206,6,'2006-02-15 05:07:09');
+(206,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(207,9,'2006-02-15 05:07:09');
+(207,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(208,2,'2006-02-15 05:07:09');
+(208,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(209,7,'2006-02-15 05:07:09');
+(209,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(210,1,'2006-02-15 05:07:09');
+(210,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(211,10,'2006-02-15 05:07:09');
+(211,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(212,1,'2006-02-15 05:07:09');
+(212,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(213,8,'2006-02-15 05:07:09');
+(213,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(214,3,'2006-02-15 05:07:09');
+(214,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(215,10,'2006-02-15 05:07:09');
+(215,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(216,13,'2006-02-15 05:07:09');
+(216,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(217,10,'2006-02-15 05:07:09');
+(217,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(218,7,'2006-02-15 05:07:09');
+(218,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(219,6,'2006-02-15 05:07:09');
+(219,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(220,12,'2006-02-15 05:07:09');
+(220,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(221,6,'2006-02-15 05:07:09');
+(221,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(222,11,'2006-02-15 05:07:09');
+(222,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(223,2,'2006-02-15 05:07:09');
+(223,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(224,16,'2006-02-15 05:07:09');
+(224,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(225,7,'2006-02-15 05:07:09');
+(225,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(226,13,'2006-02-15 05:07:09');
+(226,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(227,10,'2006-02-15 05:07:09');
+(227,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(228,4,'2006-02-15 05:07:09');
+(228,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(229,1,'2006-02-15 05:07:09');
+(229,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(230,7,'2006-02-15 05:07:09');
+(230,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(231,8,'2006-02-15 05:07:09');
+(231,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(232,10,'2006-02-15 05:07:09');
+(232,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(233,16,'2006-02-15 05:07:09');
+(233,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(234,14,'2006-02-15 05:07:09');
+(234,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(235,14,'2006-02-15 05:07:09');
+(235,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(236,10,'2006-02-15 05:07:09');
+(236,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(237,15,'2006-02-15 05:07:09');
+(237,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(238,3,'2006-02-15 05:07:09');
+(238,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(239,2,'2006-02-15 05:07:09');
+(239,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(240,14,'2006-02-15 05:07:09');
+(240,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(241,2,'2006-02-15 05:07:09');
+(241,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(242,5,'2006-02-15 05:07:09');
+(242,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(243,2,'2006-02-15 05:07:09');
+(243,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(244,12,'2006-02-15 05:07:09');
+(244,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(245,2,'2006-02-15 05:07:09');
+(245,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(246,9,'2006-02-15 05:07:09');
+(246,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(247,5,'2006-02-15 05:07:09');
+(247,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(248,6,'2006-02-15 05:07:09');
+(248,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(249,4,'2006-02-15 05:07:09');
+(249,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(250,1,'2006-02-15 05:07:09');
+(250,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(251,13,'2006-02-15 05:07:09');
+(251,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(252,1,'2006-02-15 05:07:09');
+(252,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(253,1,'2006-02-15 05:07:09');
+(253,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(254,15,'2006-02-15 05:07:09');
+(254,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(255,12,'2006-02-15 05:07:09');
+(255,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(256,15,'2006-02-15 05:07:09');
+(256,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(257,16,'2006-02-15 05:07:09');
+(257,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(258,11,'2006-02-15 05:07:09');
+(258,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(259,2,'2006-02-15 05:07:09');
+(259,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(260,15,'2006-02-15 05:07:09');
+(260,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(261,6,'2006-02-15 05:07:09');
+(261,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(262,8,'2006-02-15 05:07:09');
+(262,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(263,15,'2006-02-15 05:07:09');
+(263,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(264,10,'2006-02-15 05:07:09');
+(264,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(265,5,'2006-02-15 05:07:09');
+(265,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(266,4,'2006-02-15 05:07:09');
+(266,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(267,13,'2006-02-15 05:07:09');
+(267,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(268,2,'2006-02-15 05:07:09');
+(268,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(269,8,'2006-02-15 05:07:09');
+(269,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(270,13,'2006-02-15 05:07:09');
+(270,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(271,1,'2006-02-15 05:07:09');
+(271,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(272,7,'2006-02-15 05:07:09');
+(272,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(273,8,'2006-02-15 05:07:09');
+(273,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(274,6,'2006-02-15 05:07:09');
+(274,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(275,11,'2006-02-15 05:07:09');
+(275,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(276,5,'2006-02-15 05:07:09');
+(276,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(277,11,'2006-02-15 05:07:09');
+(277,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(278,12,'2006-02-15 05:07:09');
+(278,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(279,15,'2006-02-15 05:07:09');
+(279,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(280,3,'2006-02-15 05:07:09');
+(280,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(281,10,'2006-02-15 05:07:09');
+(281,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(282,7,'2006-02-15 05:07:09');
+(282,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(283,13,'2006-02-15 05:07:09');
+(283,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(284,12,'2006-02-15 05:07:09');
+(284,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(285,14,'2006-02-15 05:07:09');
+(285,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(286,16,'2006-02-15 05:07:09');
+(286,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(287,1,'2006-02-15 05:07:09');
+(287,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(288,16,'2006-02-15 05:07:09');
+(288,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(289,13,'2006-02-15 05:07:09');
+(289,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(290,9,'2006-02-15 05:07:09');
+(290,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(291,15,'2006-02-15 05:07:09');
+(291,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(292,1,'2006-02-15 05:07:09');
+(292,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(293,15,'2006-02-15 05:07:09');
+(293,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(294,16,'2006-02-15 05:07:09');
+(294,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(295,6,'2006-02-15 05:07:09');
+(295,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(296,14,'2006-02-15 05:07:09');
+(296,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(297,4,'2006-02-15 05:07:09');
+(297,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(298,14,'2006-02-15 05:07:09');
+(298,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(299,16,'2006-02-15 05:07:09');
+(299,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(300,2,'2006-02-15 05:07:09');
+(300,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(301,11,'2006-02-15 05:07:09');
+(301,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(302,10,'2006-02-15 05:07:09');
+(302,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(303,1,'2006-02-15 05:07:09');
+(303,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(304,3,'2006-02-15 05:07:09');
+(304,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(305,13,'2006-02-15 05:07:09');
+(305,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(306,10,'2006-02-15 05:07:09');
+(306,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(307,16,'2006-02-15 05:07:09');
+(307,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(308,5,'2006-02-15 05:07:09');
+(308,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(309,8,'2006-02-15 05:07:09');
+(309,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(310,10,'2006-02-15 05:07:09');
+(310,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(311,9,'2006-02-15 05:07:09');
+(311,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(312,14,'2006-02-15 05:07:09');
+(312,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(313,11,'2006-02-15 05:07:09');
+(313,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(314,2,'2006-02-15 05:07:09');
+(314,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(315,8,'2006-02-15 05:07:09');
+(315,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(316,10,'2006-02-15 05:07:09');
+(316,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(317,5,'2006-02-15 05:07:09');
+(317,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(318,1,'2006-02-15 05:07:09');
+(318,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(319,14,'2006-02-15 05:07:09');
+(319,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(320,13,'2006-02-15 05:07:09');
+(320,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(321,13,'2006-02-15 05:07:09');
+(321,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(322,15,'2006-02-15 05:07:09');
+(322,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(323,15,'2006-02-15 05:07:09');
+(323,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(324,5,'2006-02-15 05:07:09');
+(324,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(325,2,'2006-02-15 05:07:09');
+(325,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(326,2,'2006-02-15 05:07:09');
+(326,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(327,1,'2006-02-15 05:07:09');
+(327,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(328,3,'2006-02-15 05:07:09');
+(328,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(329,1,'2006-02-15 05:07:09');
+(329,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(330,2,'2006-02-15 05:07:09');
+(330,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(331,10,'2006-02-15 05:07:09');
+(331,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(332,5,'2006-02-15 05:07:09');
+(332,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(333,12,'2006-02-15 05:07:09');
+(333,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(334,11,'2006-02-15 05:07:09');
+(334,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(335,5,'2006-02-15 05:07:09');
+(335,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(336,6,'2006-02-15 05:07:09');
+(336,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(337,9,'2006-02-15 05:07:09');
+(337,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(338,14,'2006-02-15 05:07:09');
+(338,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(339,16,'2006-02-15 05:07:09');
+(339,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(340,13,'2006-02-15 05:07:09');
+(340,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(341,4,'2006-02-15 05:07:09');
+(341,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(342,16,'2006-02-15 05:07:09');
+(342,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(343,3,'2006-02-15 05:07:09');
+(343,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(344,3,'2006-02-15 05:07:09');
+(344,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(345,8,'2006-02-15 05:07:09');
+(345,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(346,4,'2006-02-15 05:07:09');
+(346,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(347,16,'2006-02-15 05:07:09');
+(347,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(348,8,'2006-02-15 05:07:09');
+(348,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(349,2,'2006-02-15 05:07:09');
+(349,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(350,14,'2006-02-15 05:07:09');
+(350,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(351,11,'2006-02-15 05:07:09');
+(351,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(352,10,'2006-02-15 05:07:09');
+(352,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(353,9,'2006-02-15 05:07:09');
+(353,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(354,3,'2006-02-15 05:07:09');
+(354,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(355,2,'2006-02-15 05:07:09');
+(355,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(356,3,'2006-02-15 05:07:09');
+(356,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(357,4,'2006-02-15 05:07:09');
+(357,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(358,4,'2006-02-15 05:07:09');
+(358,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(359,8,'2006-02-15 05:07:09');
+(359,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(360,1,'2006-02-15 05:07:09');
+(360,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(361,15,'2006-02-15 05:07:09');
+(361,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(362,10,'2006-02-15 05:07:09');
+(362,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(363,12,'2006-02-15 05:07:09');
+(363,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(364,13,'2006-02-15 05:07:09');
+(364,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(365,5,'2006-02-15 05:07:09');
+(365,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(366,7,'2006-02-15 05:07:09');
+(366,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(367,14,'2006-02-15 05:07:09');
+(367,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(368,7,'2006-02-15 05:07:09');
+(368,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(369,14,'2006-02-15 05:07:09');
+(369,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(370,3,'2006-02-15 05:07:09');
+(370,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(371,1,'2006-02-15 05:07:09');
+(371,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(372,15,'2006-02-15 05:07:09');
+(372,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(373,3,'2006-02-15 05:07:09');
+(373,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(374,14,'2006-02-15 05:07:09');
+(374,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(375,1,'2006-02-15 05:07:09');
+(375,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(376,9,'2006-02-15 05:07:09');
+(376,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(377,8,'2006-02-15 05:07:09');
+(377,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(378,12,'2006-02-15 05:07:09');
+(378,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(379,7,'2006-02-15 05:07:09');
+(379,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(380,9,'2006-02-15 05:07:09');
+(380,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(381,10,'2006-02-15 05:07:09');
+(381,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(382,10,'2006-02-15 05:07:09');
+(382,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(383,15,'2006-02-15 05:07:09');
+(383,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(384,12,'2006-02-15 05:07:09');
+(384,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(385,5,'2006-02-15 05:07:09');
+(385,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(386,16,'2006-02-15 05:07:09');
+(386,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(387,10,'2006-02-15 05:07:09');
+(387,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(388,5,'2006-02-15 05:07:09');
+(388,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(389,15,'2006-02-15 05:07:09');
+(389,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(390,14,'2006-02-15 05:07:09');
+(390,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(391,8,'2006-02-15 05:07:09');
+(391,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(392,3,'2006-02-15 05:07:09');
+(392,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(393,6,'2006-02-15 05:07:09');
+(393,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(394,14,'2006-02-15 05:07:09');
+(394,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(395,1,'2006-02-15 05:07:09');
+(395,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(396,7,'2006-02-15 05:07:09');
+(396,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(397,14,'2006-02-15 05:07:09');
+(397,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(398,12,'2006-02-15 05:07:09');
+(398,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(399,9,'2006-02-15 05:07:09');
+(399,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(400,6,'2006-02-15 05:07:09');
+(400,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(401,7,'2006-02-15 05:07:09');
+(401,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(402,2,'2006-02-15 05:07:09');
+(402,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(403,7,'2006-02-15 05:07:09');
+(403,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(404,5,'2006-02-15 05:07:09');
+(404,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(405,16,'2006-02-15 05:07:09');
+(405,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(406,10,'2006-02-15 05:07:09');
+(406,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(407,6,'2006-02-15 05:07:09');
+(407,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(408,10,'2006-02-15 05:07:09');
+(408,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(409,3,'2006-02-15 05:07:09');
+(409,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(410,5,'2006-02-15 05:07:09');
+(410,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(411,12,'2006-02-15 05:07:09');
+(411,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(412,6,'2006-02-15 05:07:09');
+(412,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(413,5,'2006-02-15 05:07:09');
+(413,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(414,9,'2006-02-15 05:07:09');
+(414,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(415,11,'2006-02-15 05:07:09');
+(415,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(416,9,'2006-02-15 05:07:09');
+(416,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(417,1,'2006-02-15 05:07:09');
+(417,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(418,7,'2006-02-15 05:07:09');
+(418,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(419,8,'2006-02-15 05:07:09');
+(419,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(420,15,'2006-02-15 05:07:09');
+(420,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(421,9,'2006-02-15 05:07:09');
+(421,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(422,14,'2006-02-15 05:07:09');
+(422,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(423,3,'2006-02-15 05:07:09');
+(423,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(424,3,'2006-02-15 05:07:09');
+(424,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(425,4,'2006-02-15 05:07:09');
+(425,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(426,12,'2006-02-15 05:07:09');
+(426,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(427,6,'2006-02-15 05:07:09');
+(427,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(428,8,'2006-02-15 05:07:09');
+(428,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(429,15,'2006-02-15 05:07:09');
+(429,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(430,2,'2006-02-15 05:07:09');
+(430,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(431,9,'2006-02-15 05:07:09');
+(431,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(432,4,'2006-02-15 05:07:09');
+(432,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(433,2,'2006-02-15 05:07:09');
+(433,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(434,16,'2006-02-15 05:07:09');
+(434,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(435,9,'2006-02-15 05:07:09');
+(435,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(436,13,'2006-02-15 05:07:09');
+(436,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(437,8,'2006-02-15 05:07:09');
+(437,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(438,10,'2006-02-15 05:07:09');
+(438,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(439,7,'2006-02-15 05:07:09');
+(439,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(440,9,'2006-02-15 05:07:09');
+(440,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(441,6,'2006-02-15 05:07:09');
+(441,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(442,8,'2006-02-15 05:07:09');
+(442,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(443,5,'2006-02-15 05:07:09');
+(443,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(444,5,'2006-02-15 05:07:09');
+(444,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(445,4,'2006-02-15 05:07:09');
+(445,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(446,15,'2006-02-15 05:07:09');
+(446,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(447,10,'2006-02-15 05:07:09');
+(447,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(448,13,'2006-02-15 05:07:09');
+(448,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(449,14,'2006-02-15 05:07:09');
+(449,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(450,3,'2006-02-15 05:07:09');
+(450,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(451,16,'2006-02-15 05:07:09');
+(451,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(452,9,'2006-02-15 05:07:09');
+(452,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(453,15,'2006-02-15 05:07:09');
+(453,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(454,12,'2006-02-15 05:07:09');
+(454,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(455,9,'2006-02-15 05:07:09');
+(455,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(456,2,'2006-02-15 05:07:09');
+(456,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(457,6,'2006-02-15 05:07:09');
+(457,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(458,8,'2006-02-15 05:07:09');
+(458,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(459,9,'2006-02-15 05:07:09');
+(459,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(460,9,'2006-02-15 05:07:09');
+(460,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(461,2,'2006-02-15 05:07:09');
+(461,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(462,12,'2006-02-15 05:07:09');
+(462,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(463,15,'2006-02-15 05:07:09');
+(463,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(464,2,'2006-02-15 05:07:09');
+(464,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(465,13,'2006-02-15 05:07:09');
+(465,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(466,6,'2006-02-15 05:07:09');
+(466,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(467,9,'2006-02-15 05:07:09');
+(467,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(468,3,'2006-02-15 05:07:09');
+(468,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(469,4,'2006-02-15 05:07:09');
+(469,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(470,2,'2006-02-15 05:07:09');
+(470,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(471,4,'2006-02-15 05:07:09');
+(471,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(472,16,'2006-02-15 05:07:09');
+(472,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(473,7,'2006-02-15 05:07:09');
+(473,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(474,15,'2006-02-15 05:07:09');
+(474,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(475,11,'2006-02-15 05:07:09');
+(475,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(476,8,'2006-02-15 05:07:09');
+(476,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(477,12,'2006-02-15 05:07:09');
+(477,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(478,5,'2006-02-15 05:07:09');
+(478,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(479,8,'2006-02-15 05:07:09');
+(479,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(480,4,'2006-02-15 05:07:09');
+(480,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(481,13,'2006-02-15 05:07:09');
+(481,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(482,4,'2006-02-15 05:07:09');
+(482,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(483,10,'2006-02-15 05:07:09');
+(483,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(484,4,'2006-02-15 05:07:09');
+(484,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(485,3,'2006-02-15 05:07:09');
+(485,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(486,9,'2006-02-15 05:07:09');
+(486,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(487,4,'2006-02-15 05:07:09');
+(487,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(488,15,'2006-02-15 05:07:09');
+(488,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(489,2,'2006-02-15 05:07:09');
+(489,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(490,13,'2006-02-15 05:07:09');
+(490,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(491,3,'2006-02-15 05:07:09');
+(491,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(492,13,'2006-02-15 05:07:09');
+(492,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(493,9,'2006-02-15 05:07:09');
+(493,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(494,11,'2006-02-15 05:07:09');
+(494,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(495,11,'2006-02-15 05:07:09');
+(495,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(496,16,'2006-02-15 05:07:09');
+(496,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(497,6,'2006-02-15 05:07:09');
+(497,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(498,8,'2006-02-15 05:07:09');
+(498,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(499,8,'2006-02-15 05:07:09');
+(499,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(500,9,'2006-02-15 05:07:09');
+(500,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(501,1,'2006-02-15 05:07:09');
+(501,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(502,5,'2006-02-15 05:07:09');
+(502,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(503,15,'2006-02-15 05:07:09');
+(503,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(504,7,'2006-02-15 05:07:09');
+(504,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(505,3,'2006-02-15 05:07:09');
+(505,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(506,11,'2006-02-15 05:07:09');
+(506,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(507,10,'2006-02-15 05:07:09');
+(507,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(508,10,'2006-02-15 05:07:09');
+(508,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(509,3,'2006-02-15 05:07:09');
+(509,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(510,2,'2006-02-15 05:07:09');
+(510,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(511,1,'2006-02-15 05:07:09');
+(511,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(512,4,'2006-02-15 05:07:09');
+(512,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(513,16,'2006-02-15 05:07:09');
+(513,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(514,7,'2006-02-15 05:07:09');
+(514,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(515,3,'2006-02-15 05:07:09');
+(515,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(516,12,'2006-02-15 05:07:09');
+(516,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(517,15,'2006-02-15 05:07:09');
+(517,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(518,16,'2006-02-15 05:07:09');
+(518,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(519,15,'2006-02-15 05:07:09');
+(519,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(520,14,'2006-02-15 05:07:09');
+(520,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(521,7,'2006-02-15 05:07:09');
+(521,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(522,5,'2006-02-15 05:07:09');
+(522,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(523,4,'2006-02-15 05:07:09');
+(523,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(524,5,'2006-02-15 05:07:09');
+(524,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(525,4,'2006-02-15 05:07:09');
+(525,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(526,16,'2006-02-15 05:07:09');
+(526,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(527,11,'2006-02-15 05:07:09');
+(527,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(528,8,'2006-02-15 05:07:09');
+(528,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(529,5,'2006-02-15 05:07:09');
+(529,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(530,1,'2006-02-15 05:07:09');
+(530,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(531,9,'2006-02-15 05:07:09');
+(531,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(532,15,'2006-02-15 05:07:09');
+(532,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(533,9,'2006-02-15 05:07:09');
+(533,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(534,8,'2006-02-15 05:07:09');
+(534,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(535,11,'2006-02-15 05:07:09');
+(535,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(536,4,'2006-02-15 05:07:09');
+(536,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(537,4,'2006-02-15 05:07:09');
+(537,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(538,13,'2006-02-15 05:07:09');
+(538,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(539,7,'2006-02-15 05:07:09');
+(539,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(540,12,'2006-02-15 05:07:09');
+(540,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(541,2,'2006-02-15 05:07:09');
+(541,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(542,1,'2006-02-15 05:07:09');
+(542,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(543,16,'2006-02-15 05:07:09');
+(543,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(544,6,'2006-02-15 05:07:09');
+(544,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(545,9,'2006-02-15 05:07:09');
+(545,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(546,10,'2006-02-15 05:07:09');
+(546,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(547,3,'2006-02-15 05:07:09');
+(547,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(548,4,'2006-02-15 05:07:09');
+(548,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(549,1,'2006-02-15 05:07:09');
+(549,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(550,8,'2006-02-15 05:07:09');
+(550,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(551,13,'2006-02-15 05:07:09');
+(551,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(552,6,'2006-02-15 05:07:09');
+(552,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(553,3,'2006-02-15 05:07:09');
+(553,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(554,4,'2006-02-15 05:07:09');
+(554,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(555,5,'2006-02-15 05:07:09');
+(555,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(556,10,'2006-02-15 05:07:09');
+(556,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(557,8,'2006-02-15 05:07:09');
+(557,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(558,13,'2006-02-15 05:07:09');
+(558,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(559,14,'2006-02-15 05:07:09');
+(559,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(560,10,'2006-02-15 05:07:09');
+(560,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(561,13,'2006-02-15 05:07:09');
+(561,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(562,12,'2006-02-15 05:07:09');
+(562,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(563,10,'2006-02-15 05:07:09');
+(563,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(564,2,'2006-02-15 05:07:09');
+(564,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(565,9,'2006-02-15 05:07:09');
+(565,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(566,9,'2006-02-15 05:07:09');
+(566,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(567,9,'2006-02-15 05:07:09');
+(567,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(568,5,'2006-02-15 05:07:09');
+(568,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(569,2,'2006-02-15 05:07:09');
+(569,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(570,15,'2006-02-15 05:07:09');
+(570,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(571,6,'2006-02-15 05:07:09');
+(571,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(572,14,'2006-02-15 05:07:09');
+(572,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(573,3,'2006-02-15 05:07:09');
+(573,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(574,1,'2006-02-15 05:07:09');
+(574,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(575,6,'2006-02-15 05:07:09');
+(575,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(576,6,'2006-02-15 05:07:09');
+(576,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(577,15,'2006-02-15 05:07:09');
+(577,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(578,4,'2006-02-15 05:07:09');
+(578,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(579,1,'2006-02-15 05:07:09');
+(579,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(580,13,'2006-02-15 05:07:09');
+(580,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(581,12,'2006-02-15 05:07:09');
+(581,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(582,2,'2006-02-15 05:07:09');
+(582,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(583,2,'2006-02-15 05:07:09');
+(583,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(584,9,'2006-02-15 05:07:09');
+(584,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(585,7,'2006-02-15 05:07:09');
+(585,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(586,1,'2006-02-15 05:07:09');
+(586,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(587,6,'2006-02-15 05:07:09');
+(587,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(588,3,'2006-02-15 05:07:09');
+(588,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(589,6,'2006-02-15 05:07:09');
+(589,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(590,13,'2006-02-15 05:07:09');
+(590,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(591,10,'2006-02-15 05:07:09');
+(591,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(592,12,'2006-02-15 05:07:09');
+(592,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(593,11,'2006-02-15 05:07:09');
+(593,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(594,1,'2006-02-15 05:07:09');
+(594,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(595,9,'2006-02-15 05:07:09');
+(595,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(596,10,'2006-02-15 05:07:09');
+(596,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(597,10,'2006-02-15 05:07:09');
+(597,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(598,15,'2006-02-15 05:07:09');
+(598,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(599,15,'2006-02-15 05:07:09');
+(599,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(600,11,'2006-02-15 05:07:09');
+(600,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(601,16,'2006-02-15 05:07:09');
+(601,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(602,14,'2006-02-15 05:07:09');
+(602,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(603,8,'2006-02-15 05:07:09');
+(603,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(604,5,'2006-02-15 05:07:09');
+(604,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(605,9,'2006-02-15 05:07:09');
+(605,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(606,15,'2006-02-15 05:07:09');
+(606,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(607,9,'2006-02-15 05:07:09');
+(607,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(608,3,'2006-02-15 05:07:09');
+(608,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(609,16,'2006-02-15 05:07:09');
+(609,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(610,8,'2006-02-15 05:07:09');
+(610,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(611,4,'2006-02-15 05:07:09');
+(611,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(612,15,'2006-02-15 05:07:09');
+(612,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(613,5,'2006-02-15 05:07:09');
+(613,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(614,10,'2006-02-15 05:07:09');
+(614,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(615,2,'2006-02-15 05:07:09');
+(615,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(616,6,'2006-02-15 05:07:09');
+(616,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(617,8,'2006-02-15 05:07:09');
+(617,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(618,7,'2006-02-15 05:07:09');
+(618,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(619,15,'2006-02-15 05:07:09');
+(619,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(620,14,'2006-02-15 05:07:09');
+(620,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(621,8,'2006-02-15 05:07:09');
+(621,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(622,6,'2006-02-15 05:07:09');
+(622,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(623,9,'2006-02-15 05:07:09');
+(623,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(624,10,'2006-02-15 05:07:09');
+(624,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(625,14,'2006-02-15 05:07:09');
+(625,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(626,3,'2006-02-15 05:07:09');
+(626,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(627,6,'2006-02-15 05:07:09');
+(627,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(628,15,'2006-02-15 05:07:09');
+(628,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(629,6,'2006-02-15 05:07:09');
+(629,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(630,7,'2006-02-15 05:07:09');
+(630,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(631,15,'2006-02-15 05:07:09');
+(631,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(632,13,'2006-02-15 05:07:09');
+(632,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(633,4,'2006-02-15 05:07:09');
+(633,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(634,8,'2006-02-15 05:07:09');
+(634,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(635,13,'2006-02-15 05:07:09');
+(635,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(636,12,'2006-02-15 05:07:09');
+(636,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(637,14,'2006-02-15 05:07:09');
+(637,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(638,5,'2006-02-15 05:07:09');
+(638,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(639,8,'2006-02-15 05:07:09');
+(639,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(640,9,'2006-02-15 05:07:09');
+(640,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(641,9,'2006-02-15 05:07:09');
+(641,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(642,16,'2006-02-15 05:07:09');
+(642,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(643,7,'2006-02-15 05:07:09');
+(643,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(644,2,'2006-02-15 05:07:09');
+(644,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(645,16,'2006-02-15 05:07:09');
+(645,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(646,10,'2006-02-15 05:07:09');
+(646,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(647,12,'2006-02-15 05:07:09');
+(647,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(648,16,'2006-02-15 05:07:09');
+(648,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(649,2,'2006-02-15 05:07:09');
+(649,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(650,6,'2006-02-15 05:07:09');
+(650,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(651,2,'2006-02-15 05:07:09');
+(651,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(652,4,'2006-02-15 05:07:09');
+(652,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(653,11,'2006-02-15 05:07:09');
+(653,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(654,10,'2006-02-15 05:07:09');
+(654,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(655,14,'2006-02-15 05:07:09');
+(655,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(656,16,'2006-02-15 05:07:09');
+(656,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(657,5,'2006-02-15 05:07:09');
+(657,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(658,11,'2006-02-15 05:07:09');
+(658,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(659,1,'2006-02-15 05:07:09');
+(659,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(660,5,'2006-02-15 05:07:09');
+(660,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(661,9,'2006-02-15 05:07:09');
+(661,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(662,7,'2006-02-15 05:07:09');
+(662,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(663,4,'2006-02-15 05:07:09');
+(663,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(664,1,'2006-02-15 05:07:09');
+(664,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(665,11,'2006-02-15 05:07:09');
+(665,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(666,7,'2006-02-15 05:07:09');
+(666,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(667,15,'2006-02-15 05:07:09');
+(667,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(668,15,'2006-02-15 05:07:09');
+(668,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(669,9,'2006-02-15 05:07:09');
+(669,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(670,6,'2006-02-15 05:07:09');
+(670,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(671,15,'2006-02-15 05:07:09');
+(671,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(672,5,'2006-02-15 05:07:09');
+(672,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(673,12,'2006-02-15 05:07:09');
+(673,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(674,9,'2006-02-15 05:07:09');
+(674,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(675,13,'2006-02-15 05:07:09');
+(675,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(676,15,'2006-02-15 05:07:09');
+(676,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(677,13,'2006-02-15 05:07:09');
+(677,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(678,15,'2006-02-15 05:07:09');
+(678,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(679,8,'2006-02-15 05:07:09');
+(679,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(680,5,'2006-02-15 05:07:09');
+(680,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(681,15,'2006-02-15 05:07:09');
+(681,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(682,8,'2006-02-15 05:07:09');
+(682,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(683,7,'2006-02-15 05:07:09');
+(683,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(684,10,'2006-02-15 05:07:09');
+(684,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(685,13,'2006-02-15 05:07:09');
+(685,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(686,13,'2006-02-15 05:07:09');
+(686,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(687,6,'2006-02-15 05:07:09');
+(687,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(688,3,'2006-02-15 05:07:09');
+(688,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(689,9,'2006-02-15 05:07:09');
+(689,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(690,2,'2006-02-15 05:07:09');
+(690,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(691,15,'2006-02-15 05:07:09');
+(691,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(692,2,'2006-02-15 05:07:09');
+(692,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(693,2,'2006-02-15 05:07:09');
+(693,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(694,4,'2006-02-15 05:07:09');
+(694,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(695,8,'2006-02-15 05:07:09');
+(695,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(696,2,'2006-02-15 05:07:09');
+(696,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(697,1,'2006-02-15 05:07:09');
+(697,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(698,6,'2006-02-15 05:07:09');
+(698,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(699,10,'2006-02-15 05:07:09');
+(699,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(700,8,'2006-02-15 05:07:09');
+(700,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(701,10,'2006-02-15 05:07:09');
+(701,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(702,11,'2006-02-15 05:07:09');
+(702,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(703,2,'2006-02-15 05:07:09');
+(703,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(704,5,'2006-02-15 05:07:09');
+(704,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(705,9,'2006-02-15 05:07:09');
+(705,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(706,7,'2006-02-15 05:07:09');
+(706,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(707,1,'2006-02-15 05:07:09');
+(707,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(708,6,'2006-02-15 05:07:09');
+(708,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(709,7,'2006-02-15 05:07:09');
+(709,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(710,8,'2006-02-15 05:07:09');
+(710,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(711,14,'2006-02-15 05:07:09');
+(711,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(712,6,'2006-02-15 05:07:09');
+(712,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(713,6,'2006-02-15 05:07:09');
+(713,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(714,14,'2006-02-15 05:07:09');
+(714,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(715,8,'2006-02-15 05:07:09');
+(715,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(716,11,'2006-02-15 05:07:09');
+(716,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(717,1,'2006-02-15 05:07:09');
+(717,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(718,12,'2006-02-15 05:07:09');
+(718,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(719,15,'2006-02-15 05:07:09');
+(719,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(720,13,'2006-02-15 05:07:09');
+(720,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(721,12,'2006-02-15 05:07:09');
+(721,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(722,11,'2006-02-15 05:07:09');
+(722,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(723,14,'2006-02-15 05:07:09');
+(723,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(724,8,'2006-02-15 05:07:09');
+(724,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(725,4,'2006-02-15 05:07:09');
+(725,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(726,9,'2006-02-15 05:07:09');
+(726,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(727,8,'2006-02-15 05:07:09');
+(727,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(728,7,'2006-02-15 05:07:09');
+(728,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(729,15,'2006-02-15 05:07:09');
+(729,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(730,13,'2006-02-15 05:07:09');
+(730,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(731,4,'2006-02-15 05:07:09');
+(731,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(732,1,'2006-02-15 05:07:09');
+(732,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(733,15,'2006-02-15 05:07:09');
+(733,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(734,6,'2006-02-15 05:07:09');
+(734,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(735,3,'2006-02-15 05:07:09');
+(735,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(736,8,'2006-02-15 05:07:09');
+(736,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(737,11,'2006-02-15 05:07:09');
+(737,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(738,9,'2006-02-15 05:07:09');
+(738,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(739,7,'2006-02-15 05:07:09');
+(739,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(740,11,'2006-02-15 05:07:09');
+(740,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(741,12,'2006-02-15 05:07:09');
+(741,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(742,10,'2006-02-15 05:07:09');
+(742,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(743,2,'2006-02-15 05:07:09');
+(743,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(744,4,'2006-02-15 05:07:09');
+(744,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(745,15,'2006-02-15 05:07:09');
+(745,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(746,10,'2006-02-15 05:07:09');
+(746,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(747,10,'2006-02-15 05:07:09');
+(747,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(748,1,'2006-02-15 05:07:09');
+(748,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(749,11,'2006-02-15 05:07:09');
+(749,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(750,13,'2006-02-15 05:07:09');
+(750,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(751,13,'2006-02-15 05:07:09');
+(751,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(752,12,'2006-02-15 05:07:09');
+(752,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(753,8,'2006-02-15 05:07:09');
+(753,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(754,5,'2006-02-15 05:07:09');
+(754,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(755,3,'2006-02-15 05:07:09');
+(755,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(756,5,'2006-02-15 05:07:09');
+(756,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(757,6,'2006-02-15 05:07:09');
+(757,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(758,7,'2006-02-15 05:07:09');
+(758,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(759,13,'2006-02-15 05:07:09');
+(759,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(760,13,'2006-02-15 05:07:09');
+(760,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(761,3,'2006-02-15 05:07:09');
+(761,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(762,10,'2006-02-15 05:07:09');
+(762,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(763,15,'2006-02-15 05:07:09');
+(763,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(764,15,'2006-02-15 05:07:09');
+(764,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(765,5,'2006-02-15 05:07:09');
+(765,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(766,7,'2006-02-15 05:07:09');
+(766,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(767,12,'2006-02-15 05:07:09');
+(767,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(768,3,'2006-02-15 05:07:09');
+(768,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(769,9,'2006-02-15 05:07:09');
+(769,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(770,9,'2006-02-15 05:07:09');
+(770,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(771,7,'2006-02-15 05:07:09');
+(771,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(772,7,'2006-02-15 05:07:09');
+(772,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(773,15,'2006-02-15 05:07:09');
+(773,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(774,5,'2006-02-15 05:07:09');
+(774,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(775,7,'2006-02-15 05:07:09');
+(775,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(776,6,'2006-02-15 05:07:09');
+(776,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(777,15,'2006-02-15 05:07:09');
+(777,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(778,8,'2006-02-15 05:07:09');
+(778,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(779,15,'2006-02-15 05:07:09');
+(779,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(780,8,'2006-02-15 05:07:09');
+(780,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(781,10,'2006-02-15 05:07:09');
+(781,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(782,15,'2006-02-15 05:07:09');
+(782,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(783,16,'2006-02-15 05:07:09');
+(783,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(784,16,'2006-02-15 05:07:09');
+(784,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(785,16,'2006-02-15 05:07:09');
+(785,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(786,3,'2006-02-15 05:07:09');
+(786,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(787,16,'2006-02-15 05:07:09');
+(787,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(788,6,'2006-02-15 05:07:09');
+(788,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(789,9,'2006-02-15 05:07:09');
+(789,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(790,7,'2006-02-15 05:07:09');
+(790,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(791,6,'2006-02-15 05:07:09');
+(791,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(792,9,'2006-02-15 05:07:09');
+(792,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(793,1,'2006-02-15 05:07:09');
+(793,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(794,1,'2006-02-15 05:07:09');
+(794,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(795,8,'2006-02-15 05:07:09');
+(795,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(796,15,'2006-02-15 05:07:09');
+(796,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(797,12,'2006-02-15 05:07:09');
+(797,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(798,14,'2006-02-15 05:07:09');
+(798,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(799,11,'2006-02-15 05:07:09');
+(799,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(800,11,'2006-02-15 05:07:09');
+(800,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(801,3,'2006-02-15 05:07:09');
+(801,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(802,1,'2006-02-15 05:07:09');
+(802,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(803,7,'2006-02-15 05:07:09');
+(803,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(804,11,'2006-02-15 05:07:09');
+(804,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(805,2,'2006-02-15 05:07:09');
+(805,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(806,13,'2006-02-15 05:07:09');
+(806,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(807,10,'2006-02-15 05:07:09');
+(807,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(808,4,'2006-02-15 05:07:09');
+(808,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(809,15,'2006-02-15 05:07:09');
+(809,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(810,8,'2006-02-15 05:07:09');
+(810,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(811,16,'2006-02-15 05:07:09');
+(811,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(812,6,'2006-02-15 05:07:09');
+(812,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(813,15,'2006-02-15 05:07:09');
+(813,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(814,5,'2006-02-15 05:07:09');
+(814,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(815,4,'2006-02-15 05:07:09');
+(815,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(816,2,'2006-02-15 05:07:09');
+(816,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(817,14,'2006-02-15 05:07:09');
+(817,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(818,7,'2006-02-15 05:07:09');
+(818,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(819,12,'2006-02-15 05:07:09');
+(819,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(820,2,'2006-02-15 05:07:09');
+(820,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(821,9,'2006-02-15 05:07:09');
+(821,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(822,8,'2006-02-15 05:07:09');
+(822,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(823,1,'2006-02-15 05:07:09');
+(823,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(824,8,'2006-02-15 05:07:09');
+(824,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(825,1,'2006-02-15 05:07:09');
+(825,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(826,16,'2006-02-15 05:07:09');
+(826,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(827,7,'2006-02-15 05:07:09');
+(827,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(828,4,'2006-02-15 05:07:09');
+(828,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(829,8,'2006-02-15 05:07:09');
+(829,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(830,11,'2006-02-15 05:07:09');
+(830,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(831,14,'2006-02-15 05:07:09');
+(831,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(832,8,'2006-02-15 05:07:09');
+(832,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(833,3,'2006-02-15 05:07:09');
+(833,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(834,6,'2006-02-15 05:07:09');
+(834,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(835,10,'2006-02-15 05:07:09');
+(835,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(836,15,'2006-02-15 05:07:09');
+(836,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(837,5,'2006-02-15 05:07:09');
+(837,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(838,1,'2006-02-15 05:07:09');
+(838,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(839,14,'2006-02-15 05:07:09');
+(839,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(840,10,'2006-02-15 05:07:09');
+(840,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(841,15,'2006-02-15 05:07:09');
+(841,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(842,10,'2006-02-15 05:07:09');
+(842,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(843,4,'2006-02-15 05:07:09');
+(843,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(844,15,'2006-02-15 05:07:09');
+(844,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(845,9,'2006-02-15 05:07:09');
+(845,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(846,13,'2006-02-15 05:07:09');
+(846,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(847,13,'2006-02-15 05:07:09');
+(847,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(848,16,'2006-02-15 05:07:09');
+(848,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(849,2,'2006-02-15 05:07:09');
+(849,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(850,1,'2006-02-15 05:07:09');
+(850,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(851,15,'2006-02-15 05:07:09');
+(851,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(852,3,'2006-02-15 05:07:09');
+(852,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(853,3,'2006-02-15 05:07:09');
+(853,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(854,11,'2006-02-15 05:07:09');
+(854,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(855,6,'2006-02-15 05:07:09');
+(855,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(856,11,'2006-02-15 05:07:09');
+(856,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(857,5,'2006-02-15 05:07:09');
+(857,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(858,5,'2006-02-15 05:07:09');
+(858,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(859,2,'2006-02-15 05:07:09');
+(859,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(860,14,'2006-02-15 05:07:09');
+(860,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(861,10,'2006-02-15 05:07:09');
+(861,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(862,4,'2006-02-15 05:07:09');
+(862,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(863,14,'2006-02-15 05:07:09');
+(863,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(864,3,'2006-02-15 05:07:09');
+(864,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(865,2,'2006-02-15 05:07:09');
+(865,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(866,8,'2006-02-15 05:07:09');
+(866,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(867,8,'2006-02-15 05:07:09');
+(867,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(868,16,'2006-02-15 05:07:09');
+(868,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(869,1,'2006-02-15 05:07:09');
+(869,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(870,11,'2006-02-15 05:07:09');
+(870,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(871,5,'2006-02-15 05:07:09');
+(871,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(872,16,'2006-02-15 05:07:09');
+(872,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(873,3,'2006-02-15 05:07:09');
+(873,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(874,4,'2006-02-15 05:07:09');
+(874,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(875,15,'2006-02-15 05:07:09');
+(875,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(876,11,'2006-02-15 05:07:09');
+(876,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(877,12,'2006-02-15 05:07:09');
+(877,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(878,16,'2006-02-15 05:07:09');
+(878,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(879,12,'2006-02-15 05:07:09');
+(879,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(880,2,'2006-02-15 05:07:09');
+(880,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(881,11,'2006-02-15 05:07:09');
+(881,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(882,7,'2006-02-15 05:07:09');
+(882,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(883,3,'2006-02-15 05:07:09');
+(883,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(884,12,'2006-02-15 05:07:09');
+(884,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(885,11,'2006-02-15 05:07:09');
+(885,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(886,2,'2006-02-15 05:07:09');
+(886,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(887,2,'2006-02-15 05:07:09');
+(887,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(888,6,'2006-02-15 05:07:09');
+(888,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(889,3,'2006-02-15 05:07:09');
+(889,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(890,15,'2006-02-15 05:07:09');
+(890,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(891,4,'2006-02-15 05:07:09');
+(891,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(892,2,'2006-02-15 05:07:09');
+(892,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(893,14,'2006-02-15 05:07:09');
+(893,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(894,16,'2006-02-15 05:07:09');
+(894,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(895,4,'2006-02-15 05:07:09');
+(895,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(896,3,'2006-02-15 05:07:09');
+(896,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(897,7,'2006-02-15 05:07:09');
+(897,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(898,15,'2006-02-15 05:07:09');
+(898,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(899,4,'2006-02-15 05:07:09');
+(899,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(900,9,'2006-02-15 05:07:09');
+(900,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(901,2,'2006-02-15 05:07:09');
+(901,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(902,15,'2006-02-15 05:07:09');
+(902,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(903,16,'2006-02-15 05:07:09');
+(903,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(904,11,'2006-02-15 05:07:09');
+(904,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(905,5,'2006-02-15 05:07:09');
+(905,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(906,5,'2006-02-15 05:07:09');
+(906,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(907,7,'2006-02-15 05:07:09');
+(907,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(908,9,'2006-02-15 05:07:09');
+(908,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(909,11,'2006-02-15 05:07:09');
+(909,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(910,7,'2006-02-15 05:07:09');
+(910,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(911,1,'2006-02-15 05:07:09');
+(911,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(912,14,'2006-02-15 05:07:09');
+(912,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(913,13,'2006-02-15 05:07:09');
+(913,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(914,16,'2006-02-15 05:07:09');
+(914,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(915,1,'2006-02-15 05:07:09');
+(915,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(916,2,'2006-02-15 05:07:09');
+(916,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(917,15,'2006-02-15 05:07:09');
+(917,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(918,3,'2006-02-15 05:07:09');
+(918,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(919,10,'2006-02-15 05:07:09');
+(919,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(920,13,'2006-02-15 05:07:09');
+(920,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(921,12,'2006-02-15 05:07:09');
+(921,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(922,11,'2006-02-15 05:07:09');
+(922,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(923,7,'2006-02-15 05:07:09');
+(923,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(924,14,'2006-02-15 05:07:09');
+(924,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(925,6,'2006-02-15 05:07:09');
+(925,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(926,6,'2006-02-15 05:07:09');
+(926,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(927,1,'2006-02-15 05:07:09');
+(927,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(928,3,'2006-02-15 05:07:09');
+(928,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(929,9,'2006-02-15 05:07:09');
+(929,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(930,14,'2006-02-15 05:07:09');
+(930,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(931,16,'2006-02-15 05:07:09');
+(931,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(932,5,'2006-02-15 05:07:09');
+(932,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(933,13,'2006-02-15 05:07:09');
+(933,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(934,10,'2006-02-15 05:07:09');
+(934,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(935,13,'2006-02-15 05:07:09');
+(935,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(936,12,'2006-02-15 05:07:09');
+(936,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(937,13,'2006-02-15 05:07:09');
+(937,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(938,5,'2006-02-15 05:07:09');
+(938,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(939,5,'2006-02-15 05:07:09');
+(939,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(940,15,'2006-02-15 05:07:09');
+(940,15,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(941,10,'2006-02-15 05:07:09');
+(941,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(942,7,'2006-02-15 05:07:09');
+(942,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(943,6,'2006-02-15 05:07:09');
+(943,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(944,7,'2006-02-15 05:07:09');
+(944,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(945,6,'2006-02-15 05:07:09');
+(945,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(946,8,'2006-02-15 05:07:09');
+(946,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(947,9,'2006-02-15 05:07:09');
+(947,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(948,13,'2006-02-15 05:07:09');
+(948,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(949,10,'2006-02-15 05:07:09');
+(949,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(950,4,'2006-02-15 05:07:09');
+(950,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(951,4,'2006-02-15 05:07:09');
+(951,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(952,6,'2006-02-15 05:07:09');
+(952,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(953,2,'2006-02-15 05:07:09');
+(953,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(954,13,'2006-02-15 05:07:09');
+(954,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(955,3,'2006-02-15 05:07:09');
+(955,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(956,10,'2006-02-15 05:07:09');
+(956,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(957,9,'2006-02-15 05:07:09');
+(957,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(958,7,'2006-02-15 05:07:09');
+(958,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(959,3,'2006-02-15 05:07:09');
+(959,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(960,6,'2006-02-15 05:07:09');
+(960,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(961,9,'2006-02-15 05:07:09');
+(961,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(962,4,'2006-02-15 05:07:09');
+(962,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(963,2,'2006-02-15 05:07:09');
+(963,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(964,1,'2006-02-15 05:07:09');
+(964,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(965,11,'2006-02-15 05:07:09');
+(965,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(966,6,'2006-02-15 05:07:09');
+(966,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(967,14,'2006-02-15 05:07:09');
+(967,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(968,1,'2006-02-15 05:07:09');
+(968,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(969,7,'2006-02-15 05:07:09');
+(969,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(970,4,'2006-02-15 05:07:09');
+(970,4,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(971,9,'2006-02-15 05:07:09');
+(971,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(972,14,'2006-02-15 05:07:09');
+(972,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(973,6,'2006-02-15 05:07:09');
+(973,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(974,13,'2006-02-15 05:07:09');
+(974,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(975,8,'2006-02-15 05:07:09');
+(975,8,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(976,10,'2006-02-15 05:07:09');
+(976,10,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(977,16,'2006-02-15 05:07:09');
+(977,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(978,5,'2006-02-15 05:07:09');
+(978,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(979,7,'2006-02-15 05:07:09');
+(979,7,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(980,12,'2006-02-15 05:07:09');
+(980,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(981,16,'2006-02-15 05:07:09');
+(981,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(982,1,'2006-02-15 05:07:09');
+(982,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(983,12,'2006-02-15 05:07:09');
+(983,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(984,9,'2006-02-15 05:07:09');
+(984,9,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(985,14,'2006-02-15 05:07:09');
+(985,14,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(986,2,'2006-02-15 05:07:09');
+(986,2,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(987,12,'2006-02-15 05:07:09');
+(987,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(988,16,'2006-02-15 05:07:09');
+(988,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(989,16,'2006-02-15 05:07:09');
+(989,16,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(990,11,'2006-02-15 05:07:09');
+(990,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(991,1,'2006-02-15 05:07:09');
+(991,1,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(992,6,'2006-02-15 05:07:09');
+(992,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(993,3,'2006-02-15 05:07:09');
+(993,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(994,13,'2006-02-15 05:07:09');
+(994,13,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(995,11,'2006-02-15 05:07:09');
+(995,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(996,6,'2006-02-15 05:07:09');
+(996,6,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(997,12,'2006-02-15 05:07:09');
+(997,12,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(998,11,'2006-02-15 05:07:09');
+(998,11,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(999,3,'2006-02-15 05:07:09');
+(999,3,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
 INSERT INTO film_category VALUES
-(1000,5,'2006-02-15 05:07:09');
+(1000,5,to_timestamp('2006-02-15 05:07:09','yyyy-mm-dd hh24:mi:ss'));
