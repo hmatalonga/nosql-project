@@ -462,6 +462,33 @@ GROUP BY c.name
 ORDER BY total_sales DESC;
 
 
+CREATE VIEW actor_info
+AS
+SELECT a.actor_id, a.first_name, a.last_name,
+  LISTAGG(c.name || ': ' || (
+    SELECT LISTAGG(f.title, ', ') WITHIN GROUP (ORDER BY f.title)
+    FROM film f
+    INNER JOIN film_actor fa
+    ON fa.film_id = f.film_id
+    INNER JOIN film_category fc
+    ON f.film_id = fc.film_id
+    WHERE fc.category_id = c.category_id -- from main query
+    AND fa.actor_id = a.actor_id -- from main query
+), '; ') WITHIN GROUP (ORDER BY c.name)
+AS film_info
+FROM actor a
+LEFT JOIN (
+  SELECT DISTINCT fa.actor_id, c.category_id, c.name
+  FROM film_actor fa
+  LEFT JOIN film_category fc
+    ON fc.film_id = fa.film_id
+  LEFT JOIN category c
+  ON c.category_id = fc.category_id
+) c
+ON c.actor_id = a.actor_id
+GROUP BY a.actor_id, a.first_name, a.last_name;
+
+
 ----------------END VIEWS----------------------------------
 
 
