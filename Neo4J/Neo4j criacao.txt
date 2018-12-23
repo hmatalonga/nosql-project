@@ -104,3 +104,8 @@ Match(payment:Payment{id_Payment:toInt(line[0])})
 Match(staff:Staff{id_Staff:toInt(line[2])})
 Create(payment)-[:payment_has_staff]->(staff)
 return payment,staff
+
+LOAD CSV FROM 'file:///csv\\payment.csv' AS line
+Match(payment:Payment{id_Payment:toInt(line[0])})
+Match(customer:Customer{id_Customer:toInt(line[1])})
+Create(payment)-[:payment_has_customer]->(customer)
