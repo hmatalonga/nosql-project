@@ -1,0 +1,106 @@
+LOAD CSV FROM 'file:///csv\\actor.csv' AS line
+CREATE (actor:Actor {id_Actor:TOINT(line[0]),first_name:line[1], last_name:line[2],last_update:line[3]});
+
+LOAD CSV FROM 'file:///csv\\category.csv' AS line
+CREATE (cat:Category {id_Category:TOINT(line[0]),name:line[1],last_update:line[2]});
+
+LOAD CSV FROM 'file:///csv\\country.csv' AS line
+CREATE (country:Country {id_Country:TOINT(line[0]),country:line[1],last_update:line[2]});
+
+LOAD CSV FROM 'file:///csv\\film_text.csv' AS line
+CREATE (film_text:Film_text {id_Film_text:TOINT(line[0]),title:line[1],description:line[2]});
+
+LOAD CSV FROM 'file:///csv\\city.csv' AS line
+CREATE (city:City {id_City:TOINT(line[0]),city:line[1],last_update:line[3]});
+
+LOAD CSV FROM 'file:///csv\\customer.csv' AS line
+CREATE (customer:Customer {id_Customer:TOINT(line[0]),first_name:line[2],last_name:line[3], email:line[4],active:line[6],create_date:line[7],last_update:line[8]});
+
+LOAD CSV FROM 'file:///csv\\film.csv' AS line
+CREATE (fim:Film {id_Film:TOINT(line[0]),title:line[1],description:line[2], release_year:TOINT(line[3]),rental_duration:TOINT(line[6]),rental_rate:TOFLOAT(line[7]),length:TOINT(line[8]),replacement_cost:TOFLOAT(line[9]),rating:line[10],special_features:line[11],last_update:line[12]});
+
+LOAD CSV FROM 'file:///csv\\language.csv' AS line
+CREATE (language:Language {id_Language:TOINT(line[0]),name:line[1],last_update:line[2]});
+
+LOAD CSV FROM 'file:///csv\\payment.csv' AS line
+CREATE (payment:Payment {id_Payment:TOINT(line[0]),amount:TOFLOAT(line[4]),payment_date:line[5],last_update:line[6]});
+
+LOAD CSV FROM 'file:///csv\\rental.csv' AS line
+CREATE (rental:Rental {id_Rental:TOINT(line[0]),rental_rate:line[1],return_date:line[4],last_update:line[6]});
+
+LOAD CSV FROM 'file:///csv\\store.csv' AS line
+CREATE (store:Store {id_Store:TOINT(line[0]),last_update:line[3]});
+
+LOAD CSV FROM 'file:///csv\\staff.csv' AS line
+CREATE (staff:Staff {id_Staff:TOINT(line[0]),first_name:line[1],last_name:line[2],picture:line[4],email:line[5],active:line[7],username:line[8],password:line[9],last_update:line[10]});
+
+LOAD CSV FROM 'file:///csv\\address.csv' AS line
+CREATE (address:Address {id_Address:TOINT(line[0]),address:line[1],district:line[3],postal_code:line[5],phone:line[6],location:line[7],last_update:line[8]});
+
+
+
+LOAD CSV FROM 'file:///csv\\address.csv' AS line
+CREATE (address:Address {id_Address:TOINT(line[0]),address:line[1],district:line[3],postal_code:line[5],phone:line[6],location:line[7],last_update:line[8]});
+
+--------------Relações------------------------------------------------
+LOAD CSV FROM 'file:///csv\\address.csv' AS line
+Match(address:Address{id_Address:toInt(line[0])})
+Match(city:City{id_City:toInt(line[4])})
+Create(address)-[:address_belongs_to_city]->(city)
+return address,city
+
+
+
+
+LOAD CSV FROM 'file:///csv\\city.csv' AS line
+Match(city:City{id_City:toInt(line[0])})
+Match(country:Country{id_Country:toInt(line[2])})
+Create(city)-[:city_belongs_to_country]->(country)
+return country,city
+
+
+
+LOAD CSV FROM 'file:///csv\\customer.csv' AS line
+Match(customer:Customer{id_Customer:toInt(line[0])})
+Match(address:Address{id_Address:toInt(line[5])})
+Create(customer)-[:customer_has_address]->(address)
+return customer,address
+
+
+
+LOAD CSV FROM 'file:///csv\\staff.csv' AS line
+Match(staff:Staff{id_Staff:toInt(line[0])})
+Match(address:Address{id_Address:toInt(line[3])})
+Create(staff)-[:staff_has_address]->(address)
+return staff,address
+
+LOAD CSV FROM 'file:///csv\\store.csv' AS line
+Match(store:Store{id_Store:toInt(line[0])})
+Match(address:Address{id_Address:toInt(line[3])})
+Create(store)-[:store_has_address]->(address)
+return staff,address
+
+LOAD CSV FROM 'file:///csv\\store.csv' AS line
+Match(store:Store{id_Store:toInt(line[0])})
+Match(address:Address{id_Address:toInt(line[2])})
+Create(store)-[:store_has_address]->(address)
+return store,address
+
+
+LOAD CSV FROM 'file:///csv\\store.csv' AS line
+Match(store:Store{id_Store:toInt(line[0])})
+Match(staff:Staff{id_Staff:toInt(line[1])})
+Create(store)-[:store_has_manager]->(staff)
+return store,staff
+
+LOAD CSV FROM 'file:///csv\\staff.csv' AS line
+Match(staff:Staff{id_Staff:toInt(line[0])})
+Match(store:Store{id_Store:toInt(line[6])})
+Create(staff)-[:staff_has_store]->(store)
+return store,staff
+
+LOAD CSV FROM 'file:///csv\\payment.csv' AS line
+Match(payment:Payment{id_Payment:toInt(line[0])})
+Match(staff:Staff{id_Staff:toInt(line[2])})
+Create(payment)-[:payment_has_staff]->(staff)
+return payment,staff
