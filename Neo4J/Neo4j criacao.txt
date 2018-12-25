@@ -1,4 +1,4 @@
-LOAD CSV FROM 'file:///csv\\actor.csv' AS line
+﻿LOAD CSV FROM 'file:///csv\\actor.csv' AS line
 CREATE (actor:Actor {id_Actor:TOINT(line[0]),first_name:line[1], last_name:line[2],last_update:line[3]});
 
 LOAD CSV FROM 'file:///csv\\category.csv' AS line
@@ -109,3 +109,52 @@ LOAD CSV FROM 'file:///csv\\payment.csv' AS line
 Match(payment:Payment{id_Payment:toInt(line[0])})
 Match(customer:Customer{id_Customer:toInt(line[1])})
 Create(payment)-[:payment_has_customer]->(customer)
+
+
+LOAD CSV FROM 'file:///csv\\payment.csv' AS line
+Match(payment:Payment{id_Payment:toInt(line[0])})
+Match(rental:Rental{id_Rental:toInt(line[3])})
+Create(payment)-[:payment_has_rental]->(rental)
+
+
+LOAD CSV FROM 'file:///csv\\rental.csv' AS line
+Match(rental:Rental{id_Rental:toInt(line[0])})
+Match(staff:Staff{id_Staff:toInt(line[5])})
+Create(rental)-[:rental_has_staff]->(staff)
+
+
+LOAD CSV FROM 'file:///csv\\rental.csv' AS line
+Match(rental:Rental{id_Rental:toInt(line[0])})
+Match(customer:Customer{id_Customer:toInt(line[3])})
+Create(rental)-[:rental_has_customer]->(customer)
+
+LOAD CSV FROM 'file:///csv\\film.csv' AS line
+Match(film:Film{id_Film:toInt(line[0])})
+Match(language:Language{id_Language:toInt(line[4])})
+Create(film)-[:film_has_language]->(language)
+
+-->
+
+
+Load csv from 'file:///csv\\film_category.csv' as line
+Match(film:Film{id_Film:toInt(line[0])})
+Match(category:category{id_Category:toInt(line[1])})
+Create(film)-[:film_has_category{last_update:line[2]}]->(category)
+
+
+Load csv from 'file:///csv\\film_actor.csv' as line
+Match(actor:Actor{id_Actor:toInt(line[0])})
+Match(film:Film{id_Film:toInt(line[1])})
+Create(actor)-[:acted_in{last_update:line[2]}]->(film)
+
+
+
+Load csv from 'file:///csv\\inventory.csv' as line
+Match(store:Store{id_Store:toInt(line[2])})
+Match(film:Film{id_Film:toInt(line[1])})
+Create(store)-[:store_has_film{last_update:line[3]}]->(film)
+
+--falta so a ligação rental-inventory-film
+
+
+
