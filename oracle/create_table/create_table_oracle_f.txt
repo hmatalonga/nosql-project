@@ -5,7 +5,9 @@ CREATE TABLE actor (
   last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "ACTOR_PK" PRIMARY KEY (actor_id)
 );
+
 CREATE INDEX  idx_actor_last_name  ON actor(last_name);
+CREATE SEQUENCE actor_sq start with 201;
 
 CREATE TABLE category (
   category_id number(4,0) NOT NULL,
@@ -13,14 +15,8 @@ CREATE TABLE category (
    last_update timestamp DEFAULT (current_timestamp) not null,
   CONSTRAINT "CATEGORY_PK" PRIMARY KEY (category_id)
 );
-CREATE TABLE film_text (
-  film_id number(4,0) NOT NULL,
-  title VARCHAR2(255) NOT NULL,
-  description varchar2(255),
-  CONSTRAINT "FILM_PK" PRIMARY KEY (film_id)
- );
 
- create index idx_title_description on film_text(title,description);
+CREATE SEQUENCE category_sq start with 17;
 
   CREATE TABLE language (
   language_id number(4,0) NOT NULL,
@@ -29,6 +25,7 @@ CREATE TABLE film_text (
   CONSTRAINT "LANGUAGE_PK" PRIMARY KEY (language_id)
 );
 
+CREATE SEQUENCE language_sq start with 7;
 
 CREATE TABLE film (
   film_id number(4,0) NOT NULL,
@@ -54,7 +51,17 @@ CREATE TABLE film (
 create index idx_title on film(title);
 create index idx_fk_language_id on film(language_id);
 create index idx_fk_original_language_id on film(original_language_id);
+CREATE SEQUENCE film_sq start with 1001;
 
+CREATE TABLE film_text (
+  film_id number(4,0) NOT NULL,
+  title VARCHAR2(255) NOT NULL,
+  description varchar2(255),
+  CONSTRAINT "FILM_PK" PRIMARY KEY (film_id)
+ );
+
+ create index idx_title_description on film_text(title,description);
+ 
 CREATE TABLE film_category (
   film_id number(4,0)  NOT NULL,
   category_id number(4,0) NOT NULL,
@@ -71,6 +78,8 @@ CREATE TABLE country (
   CONSTRAINT "COUNTRY_PK" PRIMARY KEY (country_id)
 );
 
+CREATE SEQUENCE country_sq start with 110;
+
 CREATE TABLE city (
   city_id number(4,0) NOT NULL,
   city VARCHAR2(50) NOT NULL,
@@ -79,7 +88,10 @@ CREATE TABLE city (
   CONSTRAINT "CITY_PK" PRIMARY KEY (city_id),
   CONSTRAINT fk_city_country FOREIGN KEY (country_id) REFERENCES country (country_id)
 );
+
 create index idx_fk_country_id on city(country_id);
+CREATE SEQUENCE city_sq start with 601;
+
 CREATE TABLE address (
   address_id number(4,0) NOT NULL,
   address VARCHAR2(50) NOT NULL,
@@ -92,7 +104,10 @@ CREATE TABLE address (
   CONSTRAINT "ADDRESS_PK" PRIMARY KEY (address_id),
   CONSTRAINT fk_address_city FOREIGN KEY (city_id) REFERENCES city (city_id)
 );
+
 create index idx_fk_city_id on address(city_id);
+CREATE SEQUENCE address_sq start with 604;
+
 
 CREATE TABLE staff (
   staff_id number(4,0) NOT NULL,
@@ -112,6 +127,7 @@ CREATE TABLE staff (
 
 create index idx_fk_store_id on staff(store_id);
 create index idx_fk_address_id on staff(address_id);
+CREATE SEQUENCE staff_sq start with 3;
 
 CREATE TABLE store (
   store_id number(4,0) NOT NULL,
@@ -124,9 +140,9 @@ CREATE TABLE store (
 );
 
 create index idx_fk_address_id1 on store(address_id);
+CREATE SEQUENCE store_sq start with 3;
 
 ALTER TABLE staff ADD CONSTRAINT fk_staff_store FOREIGN KEY (store_id) REFERENCES store(store_id);
-
 ALTER TABLE store ADD CONSTRAINT fk_store_staff FOREIGN KEY (manager_staff_id) REFERENCES staff (staff_id);
 
 
@@ -142,6 +158,7 @@ ALTER TABLE store ADD CONSTRAINT fk_store_staff FOREIGN KEY (manager_staff_id) R
 
 create index idx_fk_film_id on inventory(film_id);
 create index idx_store_id_film_id on inventory(store_id, film_id);
+CREATE SEQUENCE inventory_sq start with 4582;
 
 CREATE TABLE customer (
   customer_id number(4,0) NOT NULL,
@@ -161,7 +178,7 @@ CREATE TABLE customer (
 create index idx_fk_store_id1 on customer(store_id);
 create index idx_fk_address_id2 on customer(address_id);
 create index idx_last_name on customer(last_name);
-
+CREATE SEQUENCE customer_sq start with 600;
 
 CREATE TABLE rental (
   rental_id number(10,0) NOT NULL,
@@ -180,6 +197,7 @@ CREATE TABLE rental (
 create index idx_fk_inventory_id on rental(inventory_id);
 create index idx_fk_customer_id1 on rental(customer_id);
 create index idx_fk_staff_id1 on rental(staff_id);
+CREATE SEQUENCE rental_sq start with 16045;
 
 CREATE TABLE payment (
   payment_id number(10,0) NOT NULL,
@@ -196,6 +214,7 @@ CREATE TABLE payment (
 );
 create index idx_fk_staff_id on payment(staff_id);
 create index idx_fk_customer_id on payment(customer_id);
+CREATE SEQUENCE payment_sq start with 16050;
 
 CREATE TABLE film_actor (
   actor_id number(4,0) NOT NULL,
@@ -218,6 +237,12 @@ begin
  :NEW.last_update:=current_timestamp;
 end;
 
+create or replace trigger atualizar_customer before update on customer
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
 create or replace trigger atualizar_category before update on category
 for each row
 begin
@@ -231,6 +256,48 @@ begin
 end;
 
 create or replace trigger atualizar_film before update on film
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_country before update on country
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_city before update on city
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_address before update on address
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_staff before update on staff
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_store before update on store
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_rental before update on rental
+for each row
+begin
+ :NEW.last_update:=current_timestamp;
+end;
+
+create or replace trigger atualizar_payment before update on payment
 for each row
 begin
  :NEW.last_update:=current_timestamp;
@@ -266,6 +333,47 @@ BEGIN
     INSERT INTO film_text (film_id, title, description) VALUES (:new.film_id, :new.title, :new.description);
 END;
 
+
+  CREATE OR REPLACE TRIGGER del_film BEFORE DELETE ON film
+FOR EACH ROW
+BEGIN
+    DELETE FROM film_text WHERE film_id = :old.film_id;
+    Delete from inventory where film_id=:old.film_id; -- acrescentei isto porque nao faz muito sentido termos ni inventorio um id de um livro que foi eliminado
+ END;
+
+
+CREATE or replace TRIGGER upd_film AFTER UPDATE ON film FOR EACH ROW BEGIN
+    IF (:old.title != :new.title) OR (:old.description != :new.description) OR (:old.film_id != :new.film_id)
+    THEN
+        UPDATE film_text
+            SET title=:new.title,
+                description=:new.description,
+                film_id=:new.film_id
+        WHERE film_id=:old.film_id;
+    END IF;
+  END;
+
+
+CREATE or replace TRIGGER update_country before Update ON Country FOR EACH ROW BEGIN
+    if(:new.country_id!=:old.country_id) then
+        Update city set country_id=:new.country_id where country_id=:old.country_id;
+
+    end if;
+  END;
+
+CREATE or replace TRIGGER update_address before Update ON address FOR EACH ROW BEGIN
+    if(:new.address_id!=:old.address_id) then
+        Update customer set address_id=:new.address_id where address_id=:old.address_id;
+
+    end if;
+  END;
+
+CREATE or replace TRIGGER update_city before Update ON City FOR EACH ROW BEGIN
+    if(:new.city_id!=:old.city_id) then
+        Update address set city_id=:new.city_id where city_id=:old.city_id;
+
+    end if;
+  END;
 
 
 
@@ -340,52 +448,6 @@ alter table inventory  drop constraint FK_INVENTORY_STORE;
 alter table inventory add constraint FK_INVENTORY_STORE FOREIGN KEY (store_id) REFERENCES store(store_id) on delete set null;
 
 --fim-ver--
-
-  CREATE OR REPLACE TRIGGER del_film AFTER DELETE ON film
-FOR EACH ROW
-BEGIN
-    DELETE FROM film_text WHERE film_id = :old.film_id;
-    Delete from inventory where film_id=:old.film_id; -- acrescentei isto porque nao faz muito sentido termos ni inventorio um id de um livro que foi eliminado
- END;
-
-
-CREATE or replace TRIGGER upd_film AFTER UPDATE ON film FOR EACH ROW BEGIN
-    IF (:old.title != :new.title) OR (:old.description != :new.description) OR (:old.film_id != :new.film_id)
-    THEN
-        UPDATE film_text
-            SET title=:new.title,
-                description=:new.description,
-                film_id=:new.film_id
-        WHERE film_id=:old.film_id;
-    END IF;
-  END;
-
-
-
-
-
-
-CREATE or replace TRIGGER update_country before Update ON Country FOR EACH ROW BEGIN
-    if(:new.country_id!=:old.country_id) then
-        Update city set country_id=:new.country_id where country_id=:old.country_id;
-
-    end if;
-  END;
-
-CREATE or replace TRIGGER update_address before Update ON address FOR EACH ROW BEGIN
-    if(:new.address_id!=:old.address_id) then
-        Update customer set address_id=:new.address_id where address_id=:old.address_id;
-
-    end if;
-  END;
-
-CREATE or replace TRIGGER update_city before Update ON City FOR EACH ROW BEGIN
-    if(:new.city_id!=:old.city_id) then
-        Update address set city_id=:new.city_id where city_id=:old.city_id;
-
-    end if;
-  END;
-
 
 
  -----------------------------VIEWS---------------------------------------
@@ -633,8 +695,8 @@ BEGIN
       AND rental.rental_date <= p_effective_date
       AND rental.customer_id = p_customer_id;
 
-    SELECT NVL(SUM(CASE WHEN TO_NUMBER(r.return_date - r.rental_date) > f.rental_duration THEN
-    TO_NUMBER(r.return_date - r.rental_date) - f.rental_duration ELSE 0 END),0) INTO v_overfees
+    SELECT NVL(SUM(CASE WHEN  (EXTRACT(day FROM return_date) - EXTRACT(day FROM rental_date)) > f.rental_duration THEN
+    (EXTRACT(day FROM return_date) - EXTRACT(day FROM rental_date)) - f.rental_duration ELSE 0 END),0) INTO v_overfees
     FROM rental r, inventory i, film f
     WHERE f.film_id = i.film_id
       AND i.inventory_id = r.inventory_id
