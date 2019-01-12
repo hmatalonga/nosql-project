@@ -12,8 +12,10 @@
 $ cd mongodb/
 # Execute the suite passing the current directory as a volume to the container
 $ bash scripts/exec_suite.sh $PWD
+# Enter mongo shell
+$ bash scripts/mongo_shell.sh
 # Stop the container and delete the database
-$ docker stop sakilla-mongodb
+$ docker stop sakila-mongodb
 ```
 
 ### Scripts
