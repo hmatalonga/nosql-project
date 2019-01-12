@@ -2,4 +2,4 @@
 
 echo "Starting container..."
 
-docker run --rm --name sakilla-mongodb -v $PWD:/home -d mongo:latest
+docker run --rm --name sakila-mongodb -v $PWD:/home -d mongo:latest

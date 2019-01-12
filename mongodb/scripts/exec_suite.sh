@@ -6,7 +6,7 @@ cd $1
 
 bash scripts/start_docker.sh
 
-docker exec -it sakilla-mongodb sh -c "cd /home/scripts/ && bash run_migration.sh /home/data/embedded/"
+docker exec -it sakila-mongodb sh -c "cd /home/scripts/ && bash run_migration.sh /home/data/embedded/"
 
 echo "Changing to previous directory..."
 

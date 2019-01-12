@@ -23,3 +23,4 @@ $ docker stop sakilla-mongodb
 - `run_migration`: Imports all json files from a directory and imports them to mongodb
 - `import_data`: Executes mongoimport command receiving a database, collection and file as arguments
 - `export_data`: Executes mongoexport command receiving a database, collection and output file as arguments
+- `mongo_shell`: Enter mongo shell using sakila database
