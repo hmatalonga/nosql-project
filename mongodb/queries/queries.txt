@@ -10,7 +10,18 @@ db.films.find(
     {$and : [{"Actors.First name": /^W/}, {"Actors.Last name": /^A/}]}
 )
 
+db.films.find(
+    {Length: { $gt: 60 }},
+)
+
 db.customers.find().forEach( function (results) {
-    results.Email = results["First Name"]+"."+results["Last Name"]+"@sakilacustomer.org"
+    results.Email = results["First Name"]+"."+results["Last Name"]+"@sakilacostumer.org"
     db.customers.save(results);
+});
+
+db.films.find().forEach( function (x) {
+x.Length = parseInt(x.Length);
+x["Replacement Cost"] = parseInt(x["Replacement Cost"]);
+x["Rental Duration"] = parseInt(x["Rental Duration"]);
+db.films.save(x);
 });
