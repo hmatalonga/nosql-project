@@ -1,9 +1,13 @@
-sakila.costumers.find(
+db.costumers.find(
     {"First Name": "LINDA"}
 )
 
-sakila.films.find(
+db.films.find(
     {"Actors.actorId": 90}
+)
+
+db.films.find(
+    {$and : [{"Actors.First name": /^W/}, {"Actors.Last name": /^A/}]}
 )
 
 db.customers.find().forEach( function (results) {
