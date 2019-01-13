@@ -1,4 +1,4 @@
-db.costumers.find(
+db.customers.find(
     {"First Name": "LINDA"}
 )
 
@@ -11,11 +11,11 @@ db.films.find(
 )
 
 db.films.find(
-    {Length: { $gt: 60 }},
+    {Length: { $gt: 60 }}
 )
 
 db.customers.find().forEach( function (results) {
-    results.Email = results["First Name"]+"."+results["Last Name"]+"@sakilacostumer.org"
+    results.Email = results["First Name"]+"."+results["Last Name"]+"@sakilacustomer.org"
     db.customers.save(results);
 });
 
